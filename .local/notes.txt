@@ -1,0 +1,24 @@
+Find and replace rules
+
+get original http source by changing "id_" after timestamp in url. E.g.
+
+from: https://web.archive.org/web/20230610111707/https://www.royalwarwicks.com/
+to:   https://web.archive.org/web/20230610111707id_/https://www.royalwarwicks.com/
+
+remove style="" instances
+
+
+
+
+All files: https://web.archive.org/web/*/http://www.royalwarwicks.com/*
+
+
+
+content of one page to go into template:
+document.querySelectorAll(".main.main-sidebar-none.bottom-shadow.noise")[0]
+
+
+fix all image links find replace
+
+src="https:\/\/web.*royalwarwicks.com/
+src="/warwicksOriginal/images/
