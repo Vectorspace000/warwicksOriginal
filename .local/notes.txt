@@ -20,5 +20,5 @@ document.querySelectorAll(".main.main-sidebar-none.bottom-shadow.noise")[0]
 
 fix all image links find replace
 
-src="https:\/\/web.*royalwarwicks.com/
-src="/warwicksOriginal/images/
+"https:\/\/(web|media).*royalwarwicks.com/
+"/warwicksOriginal/images/
