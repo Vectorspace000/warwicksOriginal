@@ -350,6 +350,7 @@
       type="text/css"
       href="../css/sitebase.css"
     />
+    <script src="../javascript/js-gallery.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="https://static.websimages.com/v55a7611/active-static/target/internal/sitebuilder/view/view.app.js"></script>
     <meta name="fw:category" content="0" />
@@ -1017,7 +1018,7 @@
                       </div>
                     </div>
                   </div>
-<!--sdfsdf-->
+
 <div class="js-gallery js-gallery-flex">
   <div><img src="../images/large.jpg" /></div>
   <div><img src="../images/lebiseys3map.jpg" /></div>
@@ -1072,19 +1073,19 @@
   <div><img src="../images/125876401_1383217148696162_6882145761915674060_n.jpg" /></div>
 </div>
 
-<div class="js-gallery-zoomed">
+<div id="js-gallery-zoomed" class="js-gallery-zoomed off" onclick="jsGalleryFullClick(event)">
   <div class="js-gallery-zoomed-controls">
-    <button class="js-button" type="button" title="previous">
+    <button class="js-button" type="button" title="previous" onclick="jsGalleryPreviousClick(event)">
       <span class="material-symbols-outlined">chevron_left</span>
     </button>
-    <button class="js-button" type="button" title="close">
+    <button class="js-button" type="button" title="close" onclick="jsGalleryCloseClick(event)">
       <span class="material-symbols-outlined">close</span>
     </button>
-    <button class="js-button" type="button" title="next">
+    <button class="js-button" type="button" title="next" onclick="jsGalleryNextClick(event)">
       <span class="material-symbols-outlined">chevron_right</span>
     </button>
   </div>
-  <div class="js-gallery-zoomed-image-container" ><img class="js-gallery-zoomed-image" id="js-gallery-zoomed-image" src="../images/922_B_5968.jpg"/></div>
+  <div class="js-gallery-zoomed-image-container" ><img class="js-gallery-zoomed-image" id="js-gallery-zoomed-image" src="../images/magnify_icon_white.png"/></div>
 </div>
 
                 </div>
