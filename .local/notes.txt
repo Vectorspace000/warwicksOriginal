@@ -21,4 +21,4 @@ document.querySelectorAll(".main.main-sidebar-none.bottom-shadow.noise")[0]
 fix all image links find replace
 
 "https:\/\/(web|media).*royalwarwicks.com/
-"/warwicksOriginal/images/
+"../images/
