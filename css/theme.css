@@ -1005,7 +1005,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
 }
 .webs-image-crop {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 100%;
   height: 100%;
 }
