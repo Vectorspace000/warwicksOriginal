@@ -5105,6 +5105,7 @@ playback timings (ms):
 
 .js-gallery-flex div img {
   width: 300px;
+  cursor: pointer;
 }
 
 .js-gallery-zoomed {
