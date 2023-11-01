@@ -3434,9 +3434,9 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
 }
 
 /* Module: contact_form, Style: default */
-.w-contact_form {
-  /* ---  validation errors --- */
-}
+/* .w-contact_form {
+  /* ---  validation errors --- * /
+} */
 .w-contact_form .w-contact_form-container {
   position: relative;
 }
@@ -3519,12 +3519,12 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   input.w-contact_form-field {
   max-width: 300px;
 }
-.w-contact_form
+/* .w-contact_form
   .w-contact_form-li
   .w-contact_form-input
   ul.w-contact_form-options {
-  /* margin-left: 25px; */
-}
+  /* margin-left: 25px; * /
+} */
 .w-contact_form .w-contact_form-li .w-button {
   margin: 0;
 }
