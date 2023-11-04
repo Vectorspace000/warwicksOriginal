@@ -5181,3 +5181,22 @@ playback timings (ms):
 .js-button:active {
   transform: scale(0.99);
 }
+
+.js-list {
+  list-style: revert;
+  padding: revert;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 200%;
+  color: rgb(217, 217, 217);
+  padding-bottom: 1.5em;
+}
+
+.js-list-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.js-list-grid-span-2 {
+  grid-column-start: span 2;
+}
