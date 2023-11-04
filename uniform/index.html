@@ -476,97 +476,6 @@
                     </div>
                   </div>
                 </div>
-                <script>
-                  require(["jquery"], function ($) {
-                    var deferredLoad = $.Deferred();
-                    webs.renderedModulesPromises.push(deferredLoad.promise());
-                    require([
-                      "internal/sitebuilder/common/ModuleClassLoader",
-                    ], function (mcl) {
-                      mcl
-                        .create("header_editor", {
-                          data: {
-                            width: "100%",
-                            linksData: {},
-                            text_layers: [],
-                            image_layers: [],
-                            showBackground: false,
-                            background: {
-                              url: "",
-                              position: { left: 0, top: 0 },
-                              mobile: { custom: false, color: null },
-                            },
-                            title: {
-                              text: '<span style="font-size: 48px;" class="wz-bold">Royal Warwickshire Regiment<\/span>&nbsp;<div>Re-enactment Group  <\/div>',
-                              top: 21,
-                              left: 260,
-                              right: "auto",
-                              align: "center",
-                              "z-index": 20,
-                              display: "block",
-                              mobile: {
-                                display: "block",
-                                top: 18,
-                                left: null,
-                                color: null,
-                              },
-                              font: "sorts_mill_goudy",
-                            },
-                            subtitle: {
-                              text: "Click here to edit subtitle",
-                              top: 92,
-                              left: 92,
-                              right: "auto",
-                              align: "left",
-                              "z-index": 21,
-                              display: "none",
-                              mobile: {
-                                display: "none",
-                                top: 40,
-                                left: null,
-                                color: null,
-                              },
-                            },
-                            logo: {
-                              top: 6,
-                              left: 31,
-                              display: "block",
-                              width: 142,
-                              height: 107,
-                              mobile: {
-                                display: "none",
-                                top: 10,
-                                left: null,
-                                color: null,
-                              },
-                              position: "absolute",
-                              fullWidth: 576,
-                              fullHeight: 436,
-                              url: "../images/royal_warwickshire_regiment_cap_badge.JPG",
-                              webs: {
-                                fileId: 400903470,
-                                path: "royal_warwickshire_regiment_cap_badge.JPG",
-                              },
-                              imageType: "webs",
-                              right: "auto",
-                            },
-                            _id: "54ff26bc0cf2c1a6c702f371",
-                            _captchaPublicKey:
-                              "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                            _renderCaptcha: true,
-                            _site: { id: 130200569 },
-                          },
-                          container: $(
-                            "#webs-bin-54ff26bc0cf2c1a6c702f371 > .webs-bin-wrap > .webs-container"
-                          ),
-                        })
-                        .done(function (m) {
-                          m.oneLoaded();
-                          deferredLoad.resolve();
-                        });
-                    });
-                  });
-                </script>
               </div>
             </div>
           </header>
@@ -952,44 +861,6 @@
                       </div>
                     </div>
                   </div>
-                  <script>
-                    require(["jquery"], function ($) {
-                      var deferredLoad = $.Deferred();
-                      webs.renderedModulesPromises.push(deferredLoad.promise());
-                      require([
-                        "internal/sitebuilder/common/ModuleClassLoader",
-                      ], function (mcl) {
-                        mcl
-                          .create("title", {
-                            data: {
-                              align: "center",
-                              html: '<span style="color: rgb(246, 224, 36);">UNIFORM<\/span>',
-                              level: null,
-                              icon: {
-                                enable: false,
-                                set: null,
-                                slug: null,
-                                position: null,
-                                style: null,
-                              },
-                              linksData: {},
-                              _id: "552c264217c4a2186305e015",
-                              _captchaPublicKey:
-                                "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                              _renderCaptcha: true,
-                              _site: { id: 130200569 },
-                            },
-                            container: $(
-                              "#webs-bin-552c264217c4a2186305e015 > .webs-bin-wrap > .webs-container"
-                            ),
-                          })
-                          .done(function (m) {
-                            m.oneLoaded();
-                            deferredLoad.resolve();
-                          });
-                      });
-                    });
-                  </script>
                   <div class="webs-parent webs-parent-2 webs-row">
                     <div
                       class="webs-parent webs-parent-3 webs-col"
@@ -1017,46 +888,6 @@
                           </div>
                         </div>
                       </div>
-                      <script>
-                        require(["jquery"], function ($) {
-                          var deferredLoad = $.Deferred();
-                          webs.renderedModulesPromises.push(
-                            deferredLoad.promise()
-                          );
-                          require([
-                            "internal/sitebuilder/common/ModuleClassLoader",
-                          ], function (mcl) {
-                            mcl
-                              .create("title", {
-                                data: {
-                                  align: "left",
-                                  html: '<span style="color: rgb(246, 224, 36); font-size: 18px;">Battledress<\/span>',
-                                  level: null,
-                                  icon: {
-                                    enable: false,
-                                    set: null,
-                                    slug: null,
-                                    position: null,
-                                    style: null,
-                                  },
-                                  linksData: {},
-                                  _id: "554927d5f8fc3b51030650e1",
-                                  _captchaPublicKey:
-                                    "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                                  _renderCaptcha: true,
-                                  _site: { id: 130200569 },
-                                },
-                                container: $(
-                                  "#webs-bin-554927d5f8fc3b51030650e1 > .webs-bin-wrap > .webs-container"
-                                ),
-                              })
-                              .done(function (m) {
-                                m.oneLoaded();
-                                deferredLoad.resolve();
-                              });
-                          });
-                        });
-                      </script>
                       <div
                         class="webs-bin"
                         id="webs-bin-5563554c332ca2e83e03c1fd"
@@ -1410,45 +1241,6 @@
                               </div>
                             </div>
                           </div>
-                          <script>
-                            require(["jquery"], function ($) {
-                              var deferredLoad = $.Deferred();
-                              webs.renderedModulesPromises.push(
-                                deferredLoad.promise()
-                              );
-                              require([
-                                "internal/sitebuilder/common/ModuleClassLoader",
-                              ], function (mcl) {
-                                mcl
-                                  .create("title", {
-                                    data: {
-                                      align: "left",
-                                      html: null,
-                                      level: 3,
-                                      icon: {
-                                        enable: false,
-                                        set: null,
-                                        slug: null,
-                                        position: null,
-                                        style: null,
-                                      },
-                                      _id: "61b9ff9d20c85c22d0d199ac",
-                                      _captchaPublicKey:
-                                        "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                                      _renderCaptcha: true,
-                                      _site: { id: 130200569 },
-                                    },
-                                    container: $(
-                                      "#webs-bin-61b9ff9d20c85c22d0d199ac > .webs-bin-wrap > .webs-container"
-                                    ),
-                                  })
-                                  .done(function (m) {
-                                    m.oneLoaded();
-                                    deferredLoad.resolve();
-                                  });
-                              });
-                            });
-                          </script>
                           <div
                             class="webs-bin"
                             id="webs-bin-556359a7332ca2e83e03c314"
@@ -1476,54 +1268,6 @@
                               </div>
                             </div>
                           </div>
-                          <script>
-                            require(["jquery"], function ($) {
-                              var deferredLoad = $.Deferred();
-                              webs.renderedModulesPromises.push(
-                                deferredLoad.promise()
-                              );
-                              require([
-                                "internal/sitebuilder/common/ModuleClassLoader",
-                              ], function (mcl) {
-                                mcl
-                                  .create("image", {
-                                    data: {
-                                      link: null,
-                                      imageType: "webs",
-                                      width: 173,
-                                      height: 439,
-                                      align: "center",
-                                      imageWidth: 100,
-                                      caption: "image",
-                                      inBucket: false,
-                                      changeCallback: null,
-                                      frame: "default",
-                                      frameColor: "ffffff",
-                                      top: null,
-                                      left: null,
-                                      imageHeight: 439,
-                                      url: "../images/IMGA0383.JPG",
-                                      webs: {
-                                        fileId: 406463045,
-                                        path: "IMGA0383.JPG",
-                                      },
-                                      _id: "556359a7332ca2e83e03c314",
-                                      _captchaPublicKey:
-                                        "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                                      _renderCaptcha: true,
-                                      _site: { id: 130200569 },
-                                    },
-                                    container: $(
-                                      "#webs-bin-556359a7332ca2e83e03c314 > .webs-bin-wrap > .webs-container"
-                                    ),
-                                  })
-                                  .done(function (m) {
-                                    m.oneLoaded();
-                                    deferredLoad.resolve();
-                                  });
-                              });
-                            });
-                          </script>
                         </div>
                         <div
                           class="webs-parent webs-parent-5 webs-col"
@@ -1543,45 +1287,6 @@
                               </div>
                             </div>
                           </div>
-                          <script>
-                            require(["jquery"], function ($) {
-                              var deferredLoad = $.Deferred();
-                              webs.renderedModulesPromises.push(
-                                deferredLoad.promise()
-                              );
-                              require([
-                                "internal/sitebuilder/common/ModuleClassLoader",
-                              ], function (mcl) {
-                                mcl
-                                  .create("title", {
-                                    data: {
-                                      align: "left",
-                                      html: null,
-                                      level: 3,
-                                      icon: {
-                                        enable: false,
-                                        set: null,
-                                        slug: null,
-                                        position: null,
-                                        style: null,
-                                      },
-                                      _id: "61b9ffa120c85c2163d199ae",
-                                      _captchaPublicKey:
-                                        "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                                      _renderCaptcha: true,
-                                      _site: { id: 130200569 },
-                                    },
-                                    container: $(
-                                      "#webs-bin-61b9ffa120c85c2163d199ae > .webs-bin-wrap > .webs-container"
-                                    ),
-                                  })
-                                  .done(function (m) {
-                                    m.oneLoaded();
-                                    deferredLoad.resolve();
-                                  });
-                              });
-                            });
-                          </script>
                           <div
                             class="webs-bin"
                             id="webs-bin-556359ba332ca2e83e03c326"
@@ -1609,54 +1314,6 @@
                               </div>
                             </div>
                           </div>
-                          <script>
-                            require(["jquery"], function ($) {
-                              var deferredLoad = $.Deferred();
-                              webs.renderedModulesPromises.push(
-                                deferredLoad.promise()
-                              );
-                              require([
-                                "internal/sitebuilder/common/ModuleClassLoader",
-                              ], function (mcl) {
-                                mcl
-                                  .create("image", {
-                                    data: {
-                                      link: null,
-                                      imageType: "webs",
-                                      width: 178,
-                                      height: 437,
-                                      align: "center",
-                                      imageWidth: 100,
-                                      caption: "image",
-                                      inBucket: false,
-                                      changeCallback: null,
-                                      frame: "default",
-                                      frameColor: "ffffff",
-                                      top: 0,
-                                      left: 0,
-                                      imageHeight: 441,
-                                      url: "../images/IMGA0390.JPG",
-                                      webs: {
-                                        fileId: 406464634,
-                                        path: "IMGA0390.JPG",
-                                      },
-                                      _id: "556359ba332ca2e83e03c326",
-                                      _captchaPublicKey:
-                                        "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                                      _renderCaptcha: true,
-                                      _site: { id: 130200569 },
-                                    },
-                                    container: $(
-                                      "#webs-bin-556359ba332ca2e83e03c326 > .webs-bin-wrap > .webs-container"
-                                    ),
-                                  })
-                                  .done(function (m) {
-                                    m.oneLoaded();
-                                    deferredLoad.resolve();
-                                  });
-                              });
-                            });
-                          </script>
                         </div>
                       </div>
                     </div>
@@ -1688,46 +1345,6 @@
                           </div>
                         </div>
                       </div>
-                      <script>
-                        require(["jquery"], function ($) {
-                          var deferredLoad = $.Deferred();
-                          webs.renderedModulesPromises.push(
-                            deferredLoad.promise()
-                          );
-                          require([
-                            "internal/sitebuilder/common/ModuleClassLoader",
-                          ], function (mcl) {
-                            mcl
-                              .create("title", {
-                                data: {
-                                  align: "left",
-                                  html: '<span style="color: rgb(246, 224, 36); font-size: 18px;">Battledress Insignia<\/span>',
-                                  level: null,
-                                  icon: {
-                                    enable: false,
-                                    set: null,
-                                    slug: null,
-                                    position: null,
-                                    style: null,
-                                  },
-                                  linksData: {},
-                                  _id: "5566115a1d45406423045686",
-                                  _captchaPublicKey:
-                                    "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                                  _renderCaptcha: true,
-                                  _site: { id: 130200569 },
-                                },
-                                container: $(
-                                  "#webs-bin-5566115a1d45406423045686 > .webs-bin-wrap > .webs-container"
-                                ),
-                              })
-                              .done(function (m) {
-                                m.oneLoaded();
-                                deferredLoad.resolve();
-                              });
-                          });
-                        });
-                      </script>
                       <div
                         class="webs-bin"
                         id="webs-bin-562cdb537add4cb22905cbb0"
@@ -1946,45 +1563,6 @@
                               </div>
                             </div>
                           </div>
-                          <script>
-                            require(["jquery"], function ($) {
-                              var deferredLoad = $.Deferred();
-                              webs.renderedModulesPromises.push(
-                                deferredLoad.promise()
-                              );
-                              require([
-                                "internal/sitebuilder/common/ModuleClassLoader",
-                              ], function (mcl) {
-                                mcl
-                                  .create("title", {
-                                    data: {
-                                      align: "left",
-                                      html: null,
-                                      level: 3,
-                                      icon: {
-                                        enable: false,
-                                        set: null,
-                                        slug: null,
-                                        position: null,
-                                        style: null,
-                                      },
-                                      _id: "61ba007120c85c973dd199b0",
-                                      _captchaPublicKey:
-                                        "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                                      _renderCaptcha: true,
-                                      _site: { id: 130200569 },
-                                    },
-                                    container: $(
-                                      "#webs-bin-61ba007120c85c973dd199b0 > .webs-bin-wrap > .webs-container"
-                                    ),
-                                  })
-                                  .done(function (m) {
-                                    m.oneLoaded();
-                                    deferredLoad.resolve();
-                                  });
-                              });
-                            });
-                          </script>
                           <div
                             class="webs-bin"
                             id="webs-bin-61ba007a20c85ce3f4d199b4"
@@ -1999,45 +1577,6 @@
                               </div>
                             </div>
                           </div>
-                          <script>
-                            require(["jquery"], function ($) {
-                              var deferredLoad = $.Deferred();
-                              webs.renderedModulesPromises.push(
-                                deferredLoad.promise()
-                              );
-                              require([
-                                "internal/sitebuilder/common/ModuleClassLoader",
-                              ], function (mcl) {
-                                mcl
-                                  .create("title", {
-                                    data: {
-                                      align: "left",
-                                      html: null,
-                                      level: 3,
-                                      icon: {
-                                        enable: false,
-                                        set: null,
-                                        slug: null,
-                                        position: null,
-                                        style: null,
-                                      },
-                                      _id: "61ba007a20c85ce3f4d199b4",
-                                      _captchaPublicKey:
-                                        "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                                      _renderCaptcha: true,
-                                      _site: { id: 130200569 },
-                                    },
-                                    container: $(
-                                      "#webs-bin-61ba007a20c85ce3f4d199b4 > .webs-bin-wrap > .webs-container"
-                                    ),
-                                  })
-                                  .done(function (m) {
-                                    m.oneLoaded();
-                                    deferredLoad.resolve();
-                                  });
-                              });
-                            });
-                          </script>
                           <div
                             class="webs-bin"
                             id="webs-bin-5566118e1d454064230456a6"
@@ -2065,54 +1604,6 @@
                               </div>
                             </div>
                           </div>
-                          <script>
-                            require(["jquery"], function ($) {
-                              var deferredLoad = $.Deferred();
-                              webs.renderedModulesPromises.push(
-                                deferredLoad.promise()
-                              );
-                              require([
-                                "internal/sitebuilder/common/ModuleClassLoader",
-                              ], function (mcl) {
-                                mcl
-                                  .create("image", {
-                                    data: {
-                                      link: null,
-                                      imageType: "webs",
-                                      width: 129,
-                                      height: 416,
-                                      align: "center",
-                                      imageWidth: 158.91,
-                                      caption: "image",
-                                      inBucket: false,
-                                      changeCallback: null,
-                                      frame: "default",
-                                      frameColor: "ffffff",
-                                      top: 0,
-                                      left: -36,
-                                      imageHeight: 626,
-                                      url: "../images/IMGA0385.JPG",
-                                      webs: {
-                                        fileId: 408959027,
-                                        path: "IMGA0385.JPG",
-                                      },
-                                      _id: "5566118e1d454064230456a6",
-                                      _captchaPublicKey:
-                                        "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                                      _renderCaptcha: true,
-                                      _site: { id: 130200569 },
-                                    },
-                                    container: $(
-                                      "#webs-bin-5566118e1d454064230456a6 > .webs-bin-wrap > .webs-container"
-                                    ),
-                                  })
-                                  .done(function (m) {
-                                    m.oneLoaded();
-                                    deferredLoad.resolve();
-                                  });
-                              });
-                            });
-                          </script>
                         </div>
                         <div
                           class="webs-parent webs-parent-5 webs-col"
@@ -2132,45 +1623,6 @@
                               </div>
                             </div>
                           </div>
-                          <script>
-                            require(["jquery"], function ($) {
-                              var deferredLoad = $.Deferred();
-                              webs.renderedModulesPromises.push(
-                                deferredLoad.promise()
-                              );
-                              require([
-                                "internal/sitebuilder/common/ModuleClassLoader",
-                              ], function (mcl) {
-                                mcl
-                                  .create("title", {
-                                    data: {
-                                      align: "left",
-                                      html: null,
-                                      level: 3,
-                                      icon: {
-                                        enable: false,
-                                        set: null,
-                                        slug: null,
-                                        position: null,
-                                        style: null,
-                                      },
-                                      _id: "61ba007320c85cd420d199b2",
-                                      _captchaPublicKey:
-                                        "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                                      _renderCaptcha: true,
-                                      _site: { id: 130200569 },
-                                    },
-                                    container: $(
-                                      "#webs-bin-61ba007320c85cd420d199b2 > .webs-bin-wrap > .webs-container"
-                                    ),
-                                  })
-                                  .done(function (m) {
-                                    m.oneLoaded();
-                                    deferredLoad.resolve();
-                                  });
-                              });
-                            });
-                          </script>
                           <div
                             class="webs-bin"
                             id="webs-bin-61ba007d20c85c1b14d199b6"
@@ -2185,45 +1637,6 @@
                               </div>
                             </div>
                           </div>
-                          <script>
-                            require(["jquery"], function ($) {
-                              var deferredLoad = $.Deferred();
-                              webs.renderedModulesPromises.push(
-                                deferredLoad.promise()
-                              );
-                              require([
-                                "internal/sitebuilder/common/ModuleClassLoader",
-                              ], function (mcl) {
-                                mcl
-                                  .create("title", {
-                                    data: {
-                                      align: "left",
-                                      html: null,
-                                      level: 3,
-                                      icon: {
-                                        enable: false,
-                                        set: null,
-                                        slug: null,
-                                        position: null,
-                                        style: null,
-                                      },
-                                      _id: "61ba007d20c85c1b14d199b6",
-                                      _captchaPublicKey:
-                                        "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                                      _renderCaptcha: true,
-                                      _site: { id: 130200569 },
-                                    },
-                                    container: $(
-                                      "#webs-bin-61ba007d20c85c1b14d199b6 > .webs-bin-wrap > .webs-container"
-                                    ),
-                                  })
-                                  .done(function (m) {
-                                    m.oneLoaded();
-                                    deferredLoad.resolve();
-                                  });
-                              });
-                            });
-                          </script>
                           <div
                             class="webs-bin"
                             id="webs-bin-556611c01d454064230456ba"
@@ -2251,54 +1664,6 @@
                               </div>
                             </div>
                           </div>
-                          <script>
-                            require(["jquery"], function ($) {
-                              var deferredLoad = $.Deferred();
-                              webs.renderedModulesPromises.push(
-                                deferredLoad.promise()
-                              );
-                              require([
-                                "internal/sitebuilder/common/ModuleClassLoader",
-                              ], function (mcl) {
-                                mcl
-                                  .create("image", {
-                                    data: {
-                                      link: null,
-                                      imageType: "webs",
-                                      width: 133,
-                                      height: 418,
-                                      align: "center",
-                                      imageWidth: 154.14,
-                                      caption: "image",
-                                      inBucket: false,
-                                      changeCallback: null,
-                                      frame: "default",
-                                      frameColor: "ffffff",
-                                      top: 0,
-                                      left: -26,
-                                      imageHeight: 623,
-                                      url: "../images/IMGA0386.JPG",
-                                      webs: {
-                                        fileId: 408958945,
-                                        path: "IMGA0386.JPG",
-                                      },
-                                      _id: "556611c01d454064230456ba",
-                                      _captchaPublicKey:
-                                        "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                                      _renderCaptcha: true,
-                                      _site: { id: 130200569 },
-                                    },
-                                    container: $(
-                                      "#webs-bin-556611c01d454064230456ba > .webs-bin-wrap > .webs-container"
-                                    ),
-                                  })
-                                  .done(function (m) {
-                                    m.oneLoaded();
-                                    deferredLoad.resolve();
-                                  });
-                              });
-                            });
-                          </script>
                         </div>
                       </div>
                     </div>
@@ -2332,46 +1697,6 @@
                           </div>
                         </div>
                       </div>
-                      <script>
-                        require(["jquery"], function ($) {
-                          var deferredLoad = $.Deferred();
-                          webs.renderedModulesPromises.push(
-                            deferredLoad.promise()
-                          );
-                          require([
-                            "internal/sitebuilder/common/ModuleClassLoader",
-                          ], function (mcl) {
-                            mcl
-                              .create("title", {
-                                data: {
-                                  align: "left",
-                                  html: '<span style="color: rgb(246, 224, 36); font-size: 18px;"><span style="font-size: 18px;">Undershirt &amp; Braces<\/span><br style="font-size: 18px;"><\/span>',
-                                  level: null,
-                                  icon: {
-                                    enable: false,
-                                    set: null,
-                                    slug: null,
-                                    position: null,
-                                    style: null,
-                                  },
-                                  linksData: {},
-                                  _id: "59de89d1fc34a60001036211",
-                                  _captchaPublicKey:
-                                    "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                                  _renderCaptcha: true,
-                                  _site: { id: 130200569 },
-                                },
-                                container: $(
-                                  "#webs-bin-59de89d1fc34a60001036211 > .webs-bin-wrap > .webs-container"
-                                ),
-                              })
-                              .done(function (m) {
-                                m.oneLoaded();
-                                deferredLoad.resolve();
-                              });
-                          });
-                        });
-                      </script>
                       <div
                         class="webs-bin"
                         id="webs-bin-59de89f0fc34a60001036215"
@@ -2462,57 +1787,6 @@
                           </div>
                         </div>
                       </div>
-                      <script>
-                        require(["jquery"], function ($) {
-                          var deferredLoad = $.Deferred();
-                          webs.renderedModulesPromises.push(
-                            deferredLoad.promise()
-                          );
-                          require([
-                            "internal/sitebuilder/common/ModuleClassLoader",
-                          ], function (mcl) {
-                            mcl
-                              .create("image", {
-                                data: {
-                                  link: null,
-                                  imageType: "webs",
-                                  width: 228,
-                                  height: 293,
-                                  align: "center",
-                                  imageWidth: 278.95,
-                                  caption: "image",
-                                  inBucket: false,
-                                  changeCallback: null,
-                                  frame: "default",
-                                  frameColor: "ffffff",
-                                  top: -38.009925,
-                                  left: -396.00389139646296,
-                                  imageHeight: 450,
-                                  url: "../images/20286796_10211858522450034_4303848547472968784_o-1.jpg",
-                                  topOffset: -0.009925000000002626,
-                                  leftOffset: -0.00437499999998181,
-                                  rotate: 0,
-                                  webs: {
-                                    fileId: 447749940,
-                                    path: "20286796_10211858522450034_4303848547472968784_o-1.jpg",
-                                  },
-                                  _id: "59de8986fc34a60001036209",
-                                  _captchaPublicKey:
-                                    "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                                  _renderCaptcha: true,
-                                  _site: { id: 130200569 },
-                                },
-                                container: $(
-                                  "#webs-bin-59de8986fc34a60001036209 > .webs-bin-wrap > .webs-container"
-                                ),
-                              })
-                              .done(function (m) {
-                                m.oneLoaded();
-                                deferredLoad.resolve();
-                              });
-                          });
-                        });
-                      </script>
                     </div>
                   </div>
                 </div>
@@ -2578,62 +1852,6 @@
                         </div>
                       </div>
                     </div>
-                    <script>
-                      require(["jquery"], function ($) {
-                        var deferredLoad = $.Deferred();
-                        webs.renderedModulesPromises.push(
-                          deferredLoad.promise()
-                        );
-                        require([
-                          "internal/sitebuilder/common/ModuleClassLoader",
-                        ], function (mcl) {
-                          mcl
-                            .create("image", {
-                              data: {
-                                link: null,
-                                imageType: "webs",
-                                width: 41,
-                                height: 41,
-                                align: "center",
-                                imageWidth: 451.22,
-                                caption: "image",
-                                inBucket: false,
-                                changeCallback: null,
-                                frame: "default",
-                                frameColor: "ffffff",
-                                top: -33,
-                                left: -22,
-                                imageHeight: 104,
-                                url: "../images/1593536442_facebook_logo_2.jpg",
-                                topOffset: -0.0057000000000009265,
-                                leftOffset: -0.007950000000001012,
-                                rotate: 0,
-                                webs: {
-                                  fileId: 460770994,
-                                  path: "1593536442_facebook_logo_2.jpg",
-                                },
-                                linkInfo: {
-                                  tab: "webpage",
-                                  url: "https://www.facebook.com/royalwarwicks",
-                                  newWindow: true,
-                                },
-                                _id: "6005e44ca11f55ea611df04b",
-                                _captchaPublicKey:
-                                  "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                                _renderCaptcha: true,
-                                _site: { id: 130200569 },
-                              },
-                              container: $(
-                                "#webs-bin-6005e44ca11f55ea611df04b > .webs-bin-wrap > .webs-container"
-                              ),
-                            })
-                            .done(function (m) {
-                              m.oneLoaded();
-                              deferredLoad.resolve();
-                            });
-                        });
-                      });
-                    </script>
                   </div>
                   <div
                     class="webs-parent webs-parent-3 webs-col"

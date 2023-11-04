@@ -476,97 +476,6 @@
                     </div>
                   </div>
                 </div>
-                <script>
-                  require(["jquery"], function ($) {
-                    var deferredLoad = $.Deferred();
-                    webs.renderedModulesPromises.push(deferredLoad.promise());
-                    require([
-                      "internal/sitebuilder/common/ModuleClassLoader",
-                    ], function (mcl) {
-                      mcl
-                        .create("header_editor", {
-                          data: {
-                            width: "100%",
-                            linksData: {},
-                            text_layers: [],
-                            image_layers: [],
-                            showBackground: false,
-                            background: {
-                              url: "",
-                              position: { left: 0, top: 0 },
-                              mobile: { custom: false, color: null },
-                            },
-                            title: {
-                              text: '<span style="font-size: 48px;" class="wz-bold">Royal Warwickshire Regiment<\/span>&nbsp;<div>Re-enactment Group  <\/div>',
-                              top: 21,
-                              left: 260,
-                              right: "auto",
-                              align: "center",
-                              "z-index": 20,
-                              display: "block",
-                              mobile: {
-                                display: "block",
-                                top: 18,
-                                left: null,
-                                color: null,
-                              },
-                              font: "sorts_mill_goudy",
-                            },
-                            subtitle: {
-                              text: "Click here to edit subtitle",
-                              top: 92,
-                              left: 92,
-                              right: "auto",
-                              align: "left",
-                              "z-index": 21,
-                              display: "none",
-                              mobile: {
-                                display: "none",
-                                top: 40,
-                                left: null,
-                                color: null,
-                              },
-                            },
-                            logo: {
-                              top: 6,
-                              left: 31,
-                              display: "block",
-                              width: 142,
-                              height: 107,
-                              mobile: {
-                                display: "none",
-                                top: 10,
-                                left: null,
-                                color: null,
-                              },
-                              position: "absolute",
-                              fullWidth: 576,
-                              fullHeight: 436,
-                              url: "../images/royal_warwickshire_regiment_cap_badge.JPG",
-                              webs: {
-                                fileId: 400903470,
-                                path: "royal_warwickshire_regiment_cap_badge.JPG",
-                              },
-                              imageType: "webs",
-                              right: "auto",
-                            },
-                            _id: "54ff26bc0cf2c1a6c702f371",
-                            _captchaPublicKey:
-                              "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                            _renderCaptcha: true,
-                            _site: { id: 130200569 },
-                          },
-                          container: $(
-                            "#webs-bin-54ff26bc0cf2c1a6c702f371 > .webs-bin-wrap > .webs-container"
-                          ),
-                        })
-                        .done(function (m) {
-                          m.oneLoaded();
-                          deferredLoad.resolve();
-                        });
-                    });
-                  });
-                </script>
               </div>
             </div>
           </header>
@@ -953,44 +862,6 @@
                       </div>
                     </div>
                   </div>
-                  <script>
-                    require(["jquery"], function ($) {
-                      var deferredLoad = $.Deferred();
-                      webs.renderedModulesPromises.push(deferredLoad.promise());
-                      require([
-                        "internal/sitebuilder/common/ModuleClassLoader",
-                      ], function (mcl) {
-                        mcl
-                          .create("title", {
-                            data: {
-                              align: "center",
-                              html: '<span style="font-size: 24px; color: rgb(246, 224, 36);">TYPES OF EVENTS<\/span>',
-                              level: null,
-                              icon: {
-                                enable: false,
-                                set: null,
-                                slug: null,
-                                position: null,
-                                style: null,
-                              },
-                              linksData: {},
-                              _id: "5517ff305d1b347a5c0269a0",
-                              _captchaPublicKey:
-                                "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                              _renderCaptcha: true,
-                              _site: { id: 130200569 },
-                            },
-                            container: $(
-                              "#webs-bin-5517ff305d1b347a5c0269a0 > .webs-bin-wrap > .webs-container"
-                            ),
-                          })
-                          .done(function (m) {
-                            m.oneLoaded();
-                            deferredLoad.resolve();
-                          });
-                      });
-                    });
-                  </script>
                   <div class="webs-bin" id="webs-bin-5517ff875d1b347a5c0269b4">
                     <div class="webs-bin-wrap">
                       <div class="webs-container webs-module-text">
@@ -1018,44 +889,6 @@
                       </div>
                     </div>
                   </div>
-                  <script>
-                    require(["jquery"], function ($) {
-                      var deferredLoad = $.Deferred();
-                      webs.renderedModulesPromises.push(deferredLoad.promise());
-                      require([
-                        "internal/sitebuilder/common/ModuleClassLoader",
-                      ], function (mcl) {
-                        mcl
-                          .create("title", {
-                            data: {
-                              align: "left",
-                              html: '<span style="color: rgb(246, 224, 36);">PUBLIC DISPLAYS<\/span>',
-                              level: null,
-                              icon: {
-                                enable: false,
-                                set: null,
-                                slug: null,
-                                position: null,
-                                style: null,
-                              },
-                              linksData: {},
-                              _id: "5517ff545d1b347a5c0269a8",
-                              _captchaPublicKey:
-                                "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                              _renderCaptcha: true,
-                              _site: { id: 130200569 },
-                            },
-                            container: $(
-                              "#webs-bin-5517ff545d1b347a5c0269a8 > .webs-bin-wrap > .webs-container"
-                            ),
-                          })
-                          .done(function (m) {
-                            m.oneLoaded();
-                            deferredLoad.resolve();
-                          });
-                      });
-                    });
-                  </script>
                   <div class="webs-bin" id="webs-bin-551801435d1b347a5c026a42">
                     <div class="webs-bin-wrap">
                       <div
@@ -1143,58 +976,6 @@
                       </div>
                     </div>
                   </div>
-                  <script>
-                    require(["jquery"], function ($) {
-                      var deferredLoad = $.Deferred();
-                      webs.renderedModulesPromises.push(deferredLoad.promise());
-                      require([
-                        "internal/sitebuilder/common/ModuleClassLoader",
-                      ], function (mcl) {
-                        mcl
-                          .create("text_image", {
-                            data: {
-                              text: {
-                                html: '<p> <\/p><p style="text-align: start; "><span style="color: rgb(250, 250, 216);"><span style="color: rgb(161, 161, 161);"><span style="color: rgb(217, 217, 217); font-size: 14px;">These events are the most common type we attend. Usually, many groups are invited and set up individual stands with equipment and display information. Each group displays differently, with others&nbsp;digging trenches, some creating vehicle depots or aid stations. This allows each group to put its unique spin into the hobby. The members of the groups chat to&nbsp;members of the public, demonstrate the equipment and generally let people get actively involved in the history.<\/span><\/span><\/span><\/p><p style="text-align: start; "><br><\/p><p style="text-align: start; color: rgb(217, 217, 217);"><span class="tojvnm2t a6sixzi8 abs2jz4q a8s20v7p t1p8iaqh k5wvi7nf q3lfd5jv pk4s997a bipmatt0 cebpdrjk qowsmv63 owwhemhu dp1hu0rb dhp61c6y iyyx5f41" style="font-size: 14px; color: rgb(217, 217, 217);">At\n this kind of event the group can have several show-and-tell displays, \nand all the re-enactors are dressed appropriately for their impression, whether it be Royal Warwick, FFI or ATS.<\/span><\/p> <p><\/p>',
-                                linksData: {},
-                              },
-                              image: {
-                                url: "../images/199166_1002139386928_8752_n.jpg",
-                                imageType: "webs",
-                                align: "left",
-                                width: 300,
-                                height: 225,
-                                imageWidth: 100,
-                                frame: "default",
-                                link: null,
-                                caption: "image",
-                                inBucket: false,
-                                changeCallback: null,
-                                frameColor: "ffffff",
-                                top: null,
-                                left: null,
-                                imageHeight: 225,
-                                webs: {
-                                  fileId: 401554864,
-                                  path: "199166_1002139386928_8752_n.jpg",
-                                },
-                              },
-                              _id: "551801435d1b347a5c026a42",
-                              _captchaPublicKey:
-                                "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                              _renderCaptcha: true,
-                              _site: { id: 130200569 },
-                            },
-                            container: $(
-                              "#webs-bin-551801435d1b347a5c026a42 > .webs-bin-wrap > .webs-container"
-                            ),
-                          })
-                          .done(function (m) {
-                            m.oneLoaded();
-                            deferredLoad.resolve();
-                          });
-                      });
-                    });
-                  </script>
                   <div class="webs-bin" id="webs-bin-551801a05d1b347a5c026a62">
                     <div class="webs-bin-wrap">
                       <div
@@ -1212,44 +993,6 @@
                       </div>
                     </div>
                   </div>
-                  <script>
-                    require(["jquery"], function ($) {
-                      var deferredLoad = $.Deferred();
-                      webs.renderedModulesPromises.push(deferredLoad.promise());
-                      require([
-                        "internal/sitebuilder/common/ModuleClassLoader",
-                      ], function (mcl) {
-                        mcl
-                          .create("title", {
-                            data: {
-                              align: "left",
-                              html: '<span style="text-align: left; "><span style="color: rgb(246, 224, 36);">LIVING HISTORY&nbsp;DISPLAYS<\/span><\/span>',
-                              level: null,
-                              icon: {
-                                enable: false,
-                                set: null,
-                                slug: null,
-                                position: null,
-                                style: null,
-                              },
-                              linksData: {},
-                              _id: "551801a05d1b347a5c026a62",
-                              _captchaPublicKey:
-                                "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                              _renderCaptcha: true,
-                              _site: { id: 130200569 },
-                            },
-                            container: $(
-                              "#webs-bin-551801a05d1b347a5c026a62 > .webs-bin-wrap > .webs-container"
-                            ),
-                          })
-                          .done(function (m) {
-                            m.oneLoaded();
-                            deferredLoad.resolve();
-                          });
-                      });
-                    });
-                  </script>
                   <div class="webs-bin" id="webs-bin-5518020f5d1b347a5c026a96">
                     <div class="webs-bin-wrap">
                       <div
@@ -1346,61 +1089,6 @@
                       </div>
                     </div>
                   </div>
-                  <script>
-                    require(["jquery"], function ($) {
-                      var deferredLoad = $.Deferred();
-                      webs.renderedModulesPromises.push(deferredLoad.promise());
-                      require([
-                        "internal/sitebuilder/common/ModuleClassLoader",
-                      ], function (mcl) {
-                        mcl
-                          .create("text_image", {
-                            data: {
-                              text: {
-                                html: '<p><span style="color: rgb(250, 250, 216);"><span style="color: rgb(217, 217, 217);"><span style="color: rgb(161, 161, 161);"><span style="font-size: 14px; color: rgb(217, 217, 217);">These events are slightly less usual than the standard public displays. At these events, all re-enactors present themselves as real soldiers from a&nbsp;pre determined time (D Day 1944 for example), this then affects how we interact with each other and the public. We&nbsp;address each other in formal military terms&nbsp;(Sir, Sergeant, Corporal etc) and will when we speak to members of the public it will be very formal and in character. We will also talk about period topics (eg&nbsp;we would not talk about the comparison of a WW2 rifle to a \'modern day\' rifle or Operation Market Garden&nbsp;as these things would not have happened yet), such as the landing on Sword Beach or our battle in France so far.<\/span><\/span><\/span><\/span><\/p><p><br><\/p><p><span style="color: rgb(250, 250, 216);"><span style="color: rgb(217, 217, 217);"><span style="color: rgb(217, 217, 217); font-size: 14px;">These kind of events really give an authentic feel of what war time life was like for both soldiers and civilians of the time<\/span><span style="font-size: 14px; color: rgb(217, 217, 217);">.&nbsp;<\/span><\/span><\/span><\/p>',
-                                linksData: {},
-                              },
-                              image: {
-                                url: "../images/21432952_534669930207556_2164192059745343486_n-2.jpg",
-                                imageType: "webs",
-                                align: "left",
-                                width: 214,
-                                height: 285,
-                                imageWidth: 100,
-                                frame: "default",
-                                link: null,
-                                caption: "image",
-                                inBucket: false,
-                                changeCallback: null,
-                                frameColor: "ffffff",
-                                top: 0,
-                                left: 0,
-                                imageHeight: 285,
-                                webs: {
-                                  fileId: 447751273,
-                                  path: "21432952_534669930207556_2164192059745343486_n-2.jpg",
-                                },
-                                topOffset: 0,
-                                leftOffset: 0,
-                                rotate: 0,
-                              },
-                              _id: "5518020f5d1b347a5c026a96",
-                              _captchaPublicKey:
-                                "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                              _renderCaptcha: true,
-                              _site: { id: 130200569 },
-                            },
-                            container: $(
-                              "#webs-bin-5518020f5d1b347a5c026a96 > .webs-bin-wrap > .webs-container"
-                            ),
-                          })
-                          .done(function (m) {
-                            m.oneLoaded();
-                            deferredLoad.resolve();
-                          });
-                      });
-                    });
-                  </script>
                   <div class="webs-bin" id="webs-bin-551862b65d1b347a5c02805d">
                     <div class="webs-bin-wrap">
                       <div
@@ -1416,44 +1104,6 @@
                       </div>
                     </div>
                   </div>
-                  <script>
-                    require(["jquery"], function ($) {
-                      var deferredLoad = $.Deferred();
-                      webs.renderedModulesPromises.push(deferredLoad.promise());
-                      require([
-                        "internal/sitebuilder/common/ModuleClassLoader",
-                      ], function (mcl) {
-                        mcl
-                          .create("title", {
-                            data: {
-                              align: "left",
-                              html: '<span style="color: rgb(246, 224, 36);">PUBLIC BATTLE<\/span>',
-                              level: null,
-                              icon: {
-                                enable: false,
-                                set: null,
-                                slug: null,
-                                position: null,
-                                style: null,
-                              },
-                              linksData: {},
-                              _id: "551862b65d1b347a5c02805d",
-                              _captchaPublicKey:
-                                "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                              _renderCaptcha: true,
-                              _site: { id: 130200569 },
-                            },
-                            container: $(
-                              "#webs-bin-551862b65d1b347a5c02805d > .webs-bin-wrap > .webs-container"
-                            ),
-                          })
-                          .done(function (m) {
-                            m.oneLoaded();
-                            deferredLoad.resolve();
-                          });
-                      });
-                    });
-                  </script>
                   <div class="webs-bin" id="webs-bin-551862e35d1b347a5c028073">
                     <div class="webs-bin-wrap">
                       <div
@@ -1577,61 +1227,6 @@
                       </div>
                     </div>
                   </div>
-                  <script>
-                    require(["jquery"], function ($) {
-                      var deferredLoad = $.Deferred();
-                      webs.renderedModulesPromises.push(deferredLoad.promise());
-                      require([
-                        "internal/sitebuilder/common/ModuleClassLoader",
-                      ], function (mcl) {
-                        mcl
-                          .create("text_image", {
-                            data: {
-                              text: {
-                                html: '<p><span style="color: rgb(250, 250, 216);"><span style="color: rgb(161, 161, 161);"><span style="font-size: 14px; color: rgb(217, 217, 217);">It is important to note that re-enactment is NOT&nbsp;a glorification of war or conflict.&nbsp;To accurately portray a soldier\'s life, we must acknowledge, respect and illustrate the kind of battles that were fought in that day and age. This is the main purpose of the public battle.<\/span><\/span><\/span><\/p><p><br><\/p><p><span style="color: rgb(217, 217, 217); font-size: 14px;"><span style="color: rgb(217, 217, 217); font-size: 14px;">These are usually held as part of a public display, as a set piece battle or in a living history display as a \'training exercise\'. In both cases they are pre planned with set victors, and quite often pre arranged pyrotechnics (all arranged by qualified personnel). Re-enactors will have either blank firing weapons (pistols, sub-machine guns, machine guns and rifles that have been built or modified to only fire blank rounds. i.e. ammunition that makes noise but does not physically fire anything), or live weapons (weapons that have the ability to fire actual projectiles) with blank ammunition. <br><\/span><\/span><\/p><p><span style="color: rgb(217, 217, 217); font-size: 14px;"><span style="color: rgb(217, 217, 217); font-size: 14px;">All these weapons are legally held by their owners or rented from approved sources at the event and all participants have&nbsp;been trained in the safe usage of these weapons before the event.&nbsp;<\/span><\/span><span style="color: rgb(161, 161, 161); background-color: transparent;"><span style="font-size: 14px; color: rgb(217, 217, 217);">This is to ensure that, that although&nbsp;these weapons are dangerous, they are operated safely and professionally. &nbsp;<\/span><\/span><\/p>',
-                                linksData: {},
-                              },
-                              image: {
-                                url: "../images/33663545_10217493815965902_2264457215450546176_o.jpg",
-                                imageType: "webs",
-                                align: "left",
-                                width: 277,
-                                height: 184,
-                                imageWidth: 108.3,
-                                frame: "default",
-                                link: null,
-                                caption: "image",
-                                inBucket: false,
-                                changeCallback: null,
-                                frameColor: "ffffff",
-                                top: 0,
-                                left: 0,
-                                imageHeight: 199,
-                                webs: {
-                                  fileId: 451975563,
-                                  path: "33663545_10217493815965902_2264457215450546176_o.jpg",
-                                },
-                                topOffset: 0,
-                                leftOffset: 0,
-                                rotate: 0,
-                              },
-                              _id: "551862e35d1b347a5c028073",
-                              _captchaPublicKey:
-                                "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                              _renderCaptcha: true,
-                              _site: { id: 130200569 },
-                            },
-                            container: $(
-                              "#webs-bin-551862e35d1b347a5c028073 > .webs-bin-wrap > .webs-container"
-                            ),
-                          })
-                          .done(function (m) {
-                            m.oneLoaded();
-                            deferredLoad.resolve();
-                          });
-                      });
-                    });
-                  </script>
                   <div class="webs-bin" id="webs-bin-551867635d1b347a5c02817c">
                     <div class="webs-bin-wrap">
                       <div
@@ -1649,44 +1244,6 @@
                       </div>
                     </div>
                   </div>
-                  <script>
-                    require(["jquery"], function ($) {
-                      var deferredLoad = $.Deferred();
-                      webs.renderedModulesPromises.push(deferredLoad.promise());
-                      require([
-                        "internal/sitebuilder/common/ModuleClassLoader",
-                      ], function (mcl) {
-                        mcl
-                          .create("title", {
-                            data: {
-                              align: "left",
-                              html: '<span style="color: rgb(246, 224, 36);"><span style="color: rgb(246, 224, 36);">PRIVATE BATTLE<\/span><\/span>',
-                              level: null,
-                              icon: {
-                                enable: false,
-                                set: null,
-                                slug: null,
-                                position: null,
-                                style: null,
-                              },
-                              linksData: {},
-                              _id: "551867635d1b347a5c02817c",
-                              _captchaPublicKey:
-                                "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                              _renderCaptcha: true,
-                              _site: { id: 130200569 },
-                            },
-                            container: $(
-                              "#webs-bin-551867635d1b347a5c02817c > .webs-bin-wrap > .webs-container"
-                            ),
-                          })
-                          .done(function (m) {
-                            m.oneLoaded();
-                            deferredLoad.resolve();
-                          });
-                      });
-                    });
-                  </script>
                   <div class="webs-bin" id="webs-bin-5518675e5d1b347a5c02817a">
                     <div class="webs-bin-wrap">
                       <div
@@ -1760,58 +1317,6 @@
                       </div>
                     </div>
                   </div>
-                  <script>
-                    require(["jquery"], function ($) {
-                      var deferredLoad = $.Deferred();
-                      webs.renderedModulesPromises.push(deferredLoad.promise());
-                      require([
-                        "internal/sitebuilder/common/ModuleClassLoader",
-                      ], function (mcl) {
-                        mcl
-                          .create("text_image", {
-                            data: {
-                              text: {
-                                html: '<p><span style="font-size: 14px; color: rgb(217, 217, 217);">Private battles are very similar to public battles in that&nbsp;the equipment used by the participants is the same.&nbsp;However, it is not carried out&nbsp;in front of the public. It is usually hosted on Ministry of Defence land by the organiser and run over several acres&nbsp;to allow the re-enactors&nbsp;freedom of movement for tactical manoeuvres, ambushes and defensive lines. This also means that the outcome is not pre arranged so is a very different feeling to the participants than a public battle, allowing them a much more real experience of combat.&nbsp;<\/span><\/p><p><br><\/p><p><span style="font-size: 14px; color: rgb(217, 217, 217);">These events are much more unusual then public and living history events.<\/span><\/p>',
-                                linksData: {},
-                              },
-                              image: {
-                                url: "../images/200489_1002181867990_8457_n.jpg",
-                                imageType: "webs",
-                                align: "left",
-                                width: 300,
-                                height: 271,
-                                imageWidth: 100,
-                                frame: "default",
-                                link: null,
-                                caption: "image",
-                                inBucket: false,
-                                changeCallback: null,
-                                frameColor: "ffffff",
-                                top: -86,
-                                left: 0,
-                                imageHeight: 400,
-                                webs: {
-                                  fileId: 401555845,
-                                  path: "200489_1002181867990_8457_n.jpg",
-                                },
-                              },
-                              _id: "5518675e5d1b347a5c02817a",
-                              _captchaPublicKey:
-                                "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                              _renderCaptcha: true,
-                              _site: { id: 130200569 },
-                            },
-                            container: $(
-                              "#webs-bin-5518675e5d1b347a5c02817a > .webs-bin-wrap > .webs-container"
-                            ),
-                          })
-                          .done(function (m) {
-                            m.oneLoaded();
-                            deferredLoad.resolve();
-                          });
-                      });
-                    });
-                  </script>
                 </div>
               </div>
             </section>
@@ -1875,62 +1380,6 @@
                         </div>
                       </div>
                     </div>
-                    <script>
-                      require(["jquery"], function ($) {
-                        var deferredLoad = $.Deferred();
-                        webs.renderedModulesPromises.push(
-                          deferredLoad.promise()
-                        );
-                        require([
-                          "internal/sitebuilder/common/ModuleClassLoader",
-                        ], function (mcl) {
-                          mcl
-                            .create("image", {
-                              data: {
-                                link: null,
-                                imageType: "webs",
-                                width: 41,
-                                height: 41,
-                                align: "center",
-                                imageWidth: 451.22,
-                                caption: "image",
-                                inBucket: false,
-                                changeCallback: null,
-                                frame: "default",
-                                frameColor: "ffffff",
-                                top: -33,
-                                left: -22,
-                                imageHeight: 104,
-                                url: "../images/1593536442_facebook_logo_2.jpg",
-                                topOffset: -0.0057000000000009265,
-                                leftOffset: -0.007950000000001012,
-                                rotate: 0,
-                                webs: {
-                                  fileId: 460770994,
-                                  path: "1593536442_facebook_logo_2.jpg",
-                                },
-                                linkInfo: {
-                                  tab: "webpage",
-                                  url: "https://www.facebook.com/royalwarwicks",
-                                  newWindow: true,
-                                },
-                                _id: "6005e44ca11f55ea611df04b",
-                                _captchaPublicKey:
-                                  "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                                _renderCaptcha: true,
-                                _site: { id: 130200569 },
-                              },
-                              container: $(
-                                "#webs-bin-6005e44ca11f55ea611df04b > .webs-bin-wrap > .webs-container"
-                              ),
-                            })
-                            .done(function (m) {
-                              m.oneLoaded();
-                              deferredLoad.resolve();
-                            });
-                        });
-                      });
-                    </script>
                   </div>
                   <div
                     class="webs-parent webs-parent-3 webs-col"
