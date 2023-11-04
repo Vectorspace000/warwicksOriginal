@@ -480,97 +480,6 @@
                     </div>
                   </div>
                 </div>
-                <script>
-                  require(["jquery"], function ($) {
-                    var deferredLoad = $.Deferred();
-                    webs.renderedModulesPromises.push(deferredLoad.promise());
-                    require([
-                      "internal/sitebuilder/common/ModuleClassLoader",
-                    ], function (mcl) {
-                      mcl
-                        .create("header_editor", {
-                          data: {
-                            width: "100%",
-                            linksData: {},
-                            text_layers: [],
-                            image_layers: [],
-                            showBackground: false,
-                            background: {
-                              url: "",
-                              position: { left: 0, top: 0 },
-                              mobile: { custom: false, color: null },
-                            },
-                            title: {
-                              text: '<span style="font-size: 48px;" class="wz-bold">Royal Warwickshire Regiment<\/span>&nbsp;<div>Re-enactment Group  <\/div>',
-                              top: 21,
-                              left: 260,
-                              right: "auto",
-                              align: "center",
-                              "z-index": 20,
-                              display: "block",
-                              mobile: {
-                                display: "block",
-                                top: 18,
-                                left: null,
-                                color: null,
-                              },
-                              font: "sorts_mill_goudy",
-                            },
-                            subtitle: {
-                              text: "Click here to edit subtitle",
-                              top: 92,
-                              left: 92,
-                              right: "auto",
-                              align: "left",
-                              "z-index": 21,
-                              display: "none",
-                              mobile: {
-                                display: "none",
-                                top: 40,
-                                left: null,
-                                color: null,
-                              },
-                            },
-                            logo: {
-                              top: 6,
-                              left: 31,
-                              display: "block",
-                              width: 142,
-                              height: 107,
-                              mobile: {
-                                display: "none",
-                                top: 10,
-                                left: null,
-                                color: null,
-                              },
-                              position: "absolute",
-                              fullWidth: 576,
-                              fullHeight: 436,
-                              url: "../images/royal_warwickshire_regiment_cap_badge.JPG",
-                              webs: {
-                                fileId: 400903470,
-                                path: "royal_warwickshire_regiment_cap_badge.JPG",
-                              },
-                              imageType: "webs",
-                              right: "auto",
-                            },
-                            _id: "54ff26bc0cf2c1a6c702f371",
-                            _captchaPublicKey:
-                              "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                            _renderCaptcha: true,
-                            _site: { id: 130200569 },
-                          },
-                          container: $(
-                            "#webs-bin-54ff26bc0cf2c1a6c702f371 > .webs-bin-wrap > .webs-container"
-                          ),
-                        })
-                        .done(function (m) {
-                          m.oneLoaded();
-                          deferredLoad.resolve();
-                        });
-                    });
-                  });
-                </script>
               </div>
             </div>
           </header>
@@ -1008,44 +917,6 @@
                       </div>
                     </div>
                   </div>
-                  <script>
-                    require(["jquery"], function ($) {
-                      var deferredLoad = $.Deferred();
-                      webs.renderedModulesPromises.push(deferredLoad.promise());
-                      require([
-                        "internal/sitebuilder/common/ModuleClassLoader",
-                      ], function (mcl) {
-                        mcl
-                          .create("title", {
-                            data: {
-                              align: "left",
-                              html: '<span style="color: rgb(250, 250, 216);">BOOK&nbsp;OUR AWARD WINNING DISPLAY<\/span>',
-                              level: null,
-                              icon: {
-                                enable: false,
-                                set: null,
-                                slug: null,
-                                position: null,
-                                style: null,
-                              },
-                              linksData: {},
-                              _id: "5e506f4844a11c36c83be755",
-                              _captchaPublicKey:
-                                "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                              _renderCaptcha: true,
-                              _site: { id: 130200569 },
-                            },
-                            container: $(
-                              "#webs-bin-5e506f4844a11c36c83be755 > .webs-bin-wrap > .webs-container"
-                            ),
-                          })
-                          .done(function (m) {
-                            m.oneLoaded();
-                            deferredLoad.resolve();
-                          });
-                      });
-                    });
-                  </script>
                   <div class="webs-bin" id="webs-bin-5f00f5b42dd9db39c1d7d1ee">
                     <div class="webs-bin-wrap">
                       <div class="webs-container webs-module-text">
@@ -1405,172 +1276,6 @@
                       </div>
                     </div>
                   </div>
-                  <script>
-                    require(["jquery"], function ($) {
-                      var deferredLoad = $.Deferred();
-                      webs.renderedModulesPromises.push(deferredLoad.promise());
-                      require([
-                        "internal/sitebuilder/common/ModuleClassLoader",
-                      ], function (mcl) {
-                        mcl
-                          .create("contact_form", {
-                            data: {
-                              untranslated: false,
-                              layout: "top",
-                              email: "royalwarwicks@gmail.com",
-                              confirmation:
-                                "Thank you for contacting us. We will get back to you as soon as possible",
-                              button: {
-                                labelFor:
-                                  "contact_form-7C78B2E7-236A-4E3C-A903-4A5A4659DDC7-submit",
-                                html: "Send Message",
-                                link: null,
-                                linkInfo: {
-                                  linkType: "website",
-                                  linkUrl: null,
-                                  newWindow: false,
-                                },
-                                linkFrozen: true,
-                                icon: {
-                                  enable: false,
-                                  set: null,
-                                  slug: null,
-                                  position: "left",
-                                  style: null,
-                                },
-                                iconLeft: true,
-                                iconStyle: "light",
-                                bgcolor: null,
-                                background: "",
-                                align: "left",
-                              },
-                              fields: [
-                                {
-                                  i: 0,
-                                  type: "text",
-                                  label: "Event Organiser Name",
-                                  default: "Enter name here",
-                                  required: true,
-                                  options: ["Option 1", "Option 2"],
-                                  id: "BF906519-A38A-45C6-A21C-AB8F0666420C",
-                                  _i_: 0,
-                                  _ip1_: 1,
-                                  _every_:
-                                    "org.mozilla.javascript.gen.c10@9cce310",
-                                },
-                                {
-                                  i: 1,
-                                  type: "email",
-                                  label: "Event Organiser Email Address",
-                                  default: "Enter Email",
-                                  required: true,
-                                  options: ["Option 1", "Option 2"],
-                                  id: "95B786A6-5DBE-49EC-B4E0-DD17343C4184",
-                                  _i_: 1,
-                                  _ip1_: 2,
-                                  _every_:
-                                    "org.mozilla.javascript.gen.c10@6a4f3476",
-                                },
-                                {
-                                  i: 2,
-                                  type: "text",
-                                  label: "Event Organiser Telephone Number",
-                                  required: false,
-                                  options: ["Option 1", "Option 2"],
-                                  id: "17E45CF6-2D77-4C79-8EE6-FCB05A69D80E",
-                                  _i_: 2,
-                                  _ip1_: 3,
-                                  _every_:
-                                    "org.mozilla.javascript.gen.c10@75fd6580",
-                                },
-                                {
-                                  i: 3,
-                                  type: "text",
-                                  label: "Event Name",
-                                  required: false,
-                                  options: ["Option 1", "Option 2"],
-                                  id: "017D5104-E717-4921-B5DE-E4D4ABC6A2CF",
-                                  _i_: 3,
-                                  _ip1_: 4,
-                                  _every_:
-                                    "org.mozilla.javascript.gen.c10@4f12f304",
-                                },
-                                {
-                                  i: 4,
-                                  type: "text",
-                                  label: "Event Date",
-                                  required: true,
-                                  options: ["Option 1", "Option 2"],
-                                  id: "F892E650-84CE-428B-990C-1C924FB2AA47",
-                                  _i_: 4,
-                                  _ip1_: 5,
-                                  _every_:
-                                    "org.mozilla.javascript.gen.c10@6510b42a",
-                                },
-                                {
-                                  i: 5,
-                                  type: "text",
-                                  label: "Event Location",
-                                  required: true,
-                                  options: ["Option 1", "Option 2"],
-                                  id: "387C1A27-9205-4633-BF91-CADFEFB042B3",
-                                  _i_: 5,
-                                  _ip1_: 6,
-                                  _every_:
-                                    "org.mozilla.javascript.gen.c10@2ba4653c",
-                                },
-                                {
-                                  i: 6,
-                                  type: "dropdown",
-                                  label: "Display Type",
-                                  required: true,
-                                  options: [
-                                    "Indoor Talk/ Presentation",
-                                    "",
-                                    "Outdoor 'Front Line/ Home Front' One Day Display",
-                                    "",
-                                    "Outdoor 'Front Line/ Home Front' Weekend Display",
-                                    "",
-                                    "Other (please provide details)",
-                                  ],
-                                  id: "D9C2464F-4197-4BB9-82AC-82287F2E58EC",
-                                  _i_: 6,
-                                  _ip1_: 7,
-                                  _every_:
-                                    "org.mozilla.javascript.gen.c10@35f25c86",
-                                },
-                                {
-                                  i: 7,
-                                  type: "textarea",
-                                  label: "Further Information",
-                                  default: "Enter Message",
-                                  required: false,
-                                  options: ["Option 1", "Option 2"],
-                                  id: "C3461A31-68A2-4C61-8223-8308E4847700",
-                                  _i_: 7,
-                                  _ip1_: 8,
-                                  _every_:
-                                    "org.mozilla.javascript.gen.c10@3a987d15",
-                                },
-                              ],
-                              _uid: "7C78B2E7-236A-4E3C-A903-4A5A4659DDC7",
-                              _id: "5f00f7522dd9db1e2fd7d202",
-                              _captchaPublicKey:
-                                "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                              _renderCaptcha: true,
-                              _site: { id: 130200569 },
-                            },
-                            container: $(
-                              "#webs-bin-5f00f7522dd9db1e2fd7d202 > .webs-bin-wrap > .webs-container"
-                            ),
-                          })
-                          .done(function (m) {
-                            m.oneLoaded();
-                            deferredLoad.resolve();
-                          });
-                      });
-                    });
-                  </script>
                   <div class="webs-bin" id="webs-bin-60071945a11f5581b01e0037">
                     <div class="webs-bin-wrap">
                       <div class="webs-container webs-module-text">
@@ -1607,44 +1312,6 @@
                       </div>
                     </div>
                   </div>
-                  <script>
-                    require(["jquery"], function ($) {
-                      var deferredLoad = $.Deferred();
-                      webs.renderedModulesPromises.push(deferredLoad.promise());
-                      require([
-                        "internal/sitebuilder/common/ModuleClassLoader",
-                      ], function (mcl) {
-                        mcl
-                          .create("title", {
-                            data: {
-                              align: "left",
-                              html: '<span style="color: rgb(246, 224, 36);">Talks/Presentations<\/span>',
-                              level: null,
-                              icon: {
-                                enable: false,
-                                set: null,
-                                slug: null,
-                                position: null,
-                                style: null,
-                              },
-                              linksData: {},
-                              _id: "5f00f1b42dd9db5ac1d7d1aa",
-                              _captchaPublicKey:
-                                "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                              _renderCaptcha: true,
-                              _site: { id: 130200569 },
-                            },
-                            container: $(
-                              "#webs-bin-5f00f1b42dd9db5ac1d7d1aa > .webs-bin-wrap > .webs-container"
-                            ),
-                          })
-                          .done(function (m) {
-                            m.oneLoaded();
-                            deferredLoad.resolve();
-                          });
-                      });
-                    });
-                  </script>
                   <div class="webs-bin" id="webs-bin-5f00f19b2dd9dbef86d7d1a4">
                     <div class="webs-bin-wrap">
                       <div
@@ -1722,61 +1389,6 @@
                       </div>
                     </div>
                   </div>
-                  <script>
-                    require(["jquery"], function ($) {
-                      var deferredLoad = $.Deferred();
-                      webs.renderedModulesPromises.push(deferredLoad.promise());
-                      require([
-                        "internal/sitebuilder/common/ModuleClassLoader",
-                      ], function (mcl) {
-                        mcl
-                          .create("text_image", {
-                            data: {
-                              text: {
-                                html: '<p><span style="font-size: 14px; color: rgb(217, 217, 217);">The group has had extensive experience delivering interactive&nbsp;presentations&nbsp;to people of all ages.&nbsp;We focus on the&nbsp;experience of the WW2 British soldier of the Royal Warwickshire Regiment on D-Day. As part of our presentation we demonstrate&nbsp;the uniform, equipment and weapons carried by these men, as well as some of the dangers they had to face, with examples of German weapons and mines. In addition we aim to paint a vivid picture of June 6th and 7th from the Warwicks perspective, telling their little known story.<\/span><\/p><p><br><\/p><p><span style="font-size: 14px; color: rgb(217, 217, 217);">Talks last between one and a half to two hours (but can be tailored if needed), we can provide our own tables for the display area but would request a space of no less than Approx 4m&nbsp;wide and 3m deep for the display preferably inside<\/span><\/p>',
-                                linksData: {},
-                              },
-                              image: {
-                                url: "../images/48203727_10157153781791318_7534799511219077120_n.jpg",
-                                imageType: "webs",
-                                align: "left",
-                                width: 289,
-                                height: 210,
-                                imageWidth: 100,
-                                frame: "default",
-                                link: null,
-                                caption: "image",
-                                inBucket: false,
-                                changeCallback: null,
-                                frameColor: "ffffff",
-                                top: -6.75,
-                                left: 0,
-                                imageHeight: 217,
-                                webs: {
-                                  fileId: 459713710,
-                                  path: "48203727_10157153781791318_7534799511219077120_n.jpg",
-                                },
-                                topOffset: 0,
-                                leftOffset: 0,
-                                rotate: 0,
-                              },
-                              _id: "5f00f19b2dd9dbef86d7d1a4",
-                              _captchaPublicKey:
-                                "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                              _renderCaptcha: true,
-                              _site: { id: 130200569 },
-                            },
-                            container: $(
-                              "#webs-bin-5f00f19b2dd9dbef86d7d1a4 > .webs-bin-wrap > .webs-container"
-                            ),
-                          })
-                          .done(function (m) {
-                            m.oneLoaded();
-                            deferredLoad.resolve();
-                          });
-                      });
-                    });
-                  </script>
                   <div class="webs-bin" id="webs-bin-5f00f76a2dd9db21b9d7d208">
                     <div class="webs-bin-wrap">
                       <div
@@ -1793,44 +1405,6 @@
                       </div>
                     </div>
                   </div>
-                  <script>
-                    require(["jquery"], function ($) {
-                      var deferredLoad = $.Deferred();
-                      webs.renderedModulesPromises.push(deferredLoad.promise());
-                      require([
-                        "internal/sitebuilder/common/ModuleClassLoader",
-                      ], function (mcl) {
-                        mcl
-                          .create("title", {
-                            data: {
-                              align: "left",
-                              html: "<span style=\"color: rgb(246, 224, 36);\">Outdoor Re-enactment Display One/ Two Days 'Front Line'&nbsp;<\/span>",
-                              level: null,
-                              icon: {
-                                enable: false,
-                                set: null,
-                                slug: null,
-                                position: null,
-                                style: null,
-                              },
-                              linksData: {},
-                              _id: "5f00f76a2dd9db21b9d7d208",
-                              _captchaPublicKey:
-                                "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                              _renderCaptcha: true,
-                              _site: { id: 130200569 },
-                            },
-                            container: $(
-                              "#webs-bin-5f00f76a2dd9db21b9d7d208 > .webs-bin-wrap > .webs-container"
-                            ),
-                          })
-                          .done(function (m) {
-                            m.oneLoaded();
-                            deferredLoad.resolve();
-                          });
-                      });
-                    });
-                  </script>
                   <div class="webs-bin" id="webs-bin-5f00f7632dd9db0903d7d206">
                     <div class="webs-bin-wrap">
                       <div
@@ -1925,61 +1499,6 @@
                       </div>
                     </div>
                   </div>
-                  <script>
-                    require(["jquery"], function ($) {
-                      var deferredLoad = $.Deferred();
-                      webs.renderedModulesPromises.push(deferredLoad.promise());
-                      require([
-                        "internal/sitebuilder/common/ModuleClassLoader",
-                      ], function (mcl) {
-                        mcl
-                          .create("text_image", {
-                            data: {
-                              text: {
-                                html: '<p><span style="font-size: 14px; color: rgb(217, 217, 217);">Our minimum set up&nbsp;will include a covered displays with tents and will require at least 12m x 12m pitch with ground which pegs can be hammered into. <br><\/span><\/p><p><span style="font-size: 14px; color: rgb(217, 217, 217);"><br><\/span><\/p><p><span style="font-size: 14px; color: rgb(217, 217, 217);">If the event is&nbsp;over two days this area will increase to include the members period sleeping tents meaning we will require a MINIMUM of 25m x 25m. We would also ask that we are allowed to use our raised, wood burning&nbsp;firepit to allow us to cook dinner and have a brew.<\/span><\/p><p><br><\/p><p><span style="font-size: 14px; color: rgb(217, 217, 217);">Our members will attend in uniform and battle equipment or appropriate FFI attire. We will portray 2nd Battalion Royal Warwickshire Regiment as they would have been on June 6th and 7th 1944 and the French Resistance that assisted them during this period. The emphasis is on weaponry and equipment rather than smart turn out, with weapons and section maneuver practices.&nbsp;<\/span><\/p>',
-                                linksData: {},
-                              },
-                              image: {
-                                url: "../images/62061925_10214864742237865_3199369830834634752_o.jpg",
-                                imageType: "webs",
-                                align: "left",
-                                width: 384,
-                                height: 258,
-                                imageWidth: 100,
-                                frame: "default",
-                                link: null,
-                                caption: "image",
-                                inBucket: false,
-                                changeCallback: null,
-                                frameColor: "ffffff",
-                                top: -15,
-                                left: 0,
-                                imageHeight: 288,
-                                webs: {
-                                  fileId: 460770840,
-                                  path: "62061925_10214864742237865_3199369830834634752_o.jpg",
-                                },
-                                topOffset: 6.103515625355271e-6,
-                                leftOffset: 0,
-                                rotate: 0,
-                              },
-                              _id: "5f00f7632dd9db0903d7d206",
-                              _captchaPublicKey:
-                                "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                              _renderCaptcha: true,
-                              _site: { id: 130200569 },
-                            },
-                            container: $(
-                              "#webs-bin-5f00f7632dd9db0903d7d206 > .webs-bin-wrap > .webs-container"
-                            ),
-                          })
-                          .done(function (m) {
-                            m.oneLoaded();
-                            deferredLoad.resolve();
-                          });
-                      });
-                    });
-                  </script>
                   <div class="webs-parent webs-parent-2 webs-row">
                     <div
                       class="webs-parent webs-parent-3 webs-col"
@@ -2057,57 +1576,6 @@
                           </div>
                         </div>
                       </div>
-                      <script>
-                        require(["jquery"], function ($) {
-                          var deferredLoad = $.Deferred();
-                          webs.renderedModulesPromises.push(
-                            deferredLoad.promise()
-                          );
-                          require([
-                            "internal/sitebuilder/common/ModuleClassLoader",
-                          ], function (mcl) {
-                            mcl
-                              .create("image", {
-                                data: {
-                                  link: null,
-                                  imageType: "webs",
-                                  width: 298,
-                                  height: 222,
-                                  align: "center",
-                                  imageWidth: 100,
-                                  caption: "image",
-                                  inBucket: false,
-                                  changeCallback: null,
-                                  frame: "default",
-                                  frameColor: "ffffff",
-                                  top: 0,
-                                  left: 0,
-                                  imageHeight: 224,
-                                  url: "../images/118404595_10220651376787510_1560569918468103921_n.jpg",
-                                  topOffset: 0,
-                                  leftOffset: 0,
-                                  rotate: 0,
-                                  webs: {
-                                    fileId: 460770916,
-                                    path: "118404595_10220651376787510_1560569918468103921_n.jpg",
-                                  },
-                                  _id: "6005e077a11f5500121df001",
-                                  _captchaPublicKey:
-                                    "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                                  _renderCaptcha: true,
-                                  _site: { id: 130200569 },
-                                },
-                                container: $(
-                                  "#webs-bin-6005e077a11f5500121df001 > .webs-bin-wrap > .webs-container"
-                                ),
-                              })
-                              .done(function (m) {
-                                m.oneLoaded();
-                                deferredLoad.resolve();
-                              });
-                          });
-                        });
-                      </script>
                     </div>
                   </div>
                   <div class="webs-bin" id="webs-bin-60071565a11f5584a21dffcb">
@@ -2126,44 +1594,6 @@
                       </div>
                     </div>
                   </div>
-                  <script>
-                    require(["jquery"], function ($) {
-                      var deferredLoad = $.Deferred();
-                      webs.renderedModulesPromises.push(deferredLoad.promise());
-                      require([
-                        "internal/sitebuilder/common/ModuleClassLoader",
-                      ], function (mcl) {
-                        mcl
-                          .create("title", {
-                            data: {
-                              align: "left",
-                              html: "<span style=\"color: rgb(246, 224, 36);\">Outdoor Re-enactment Display One/ Two Days 'Home Front'&nbsp;<\/span>",
-                              level: null,
-                              icon: {
-                                enable: false,
-                                set: null,
-                                slug: null,
-                                position: null,
-                                style: null,
-                              },
-                              linksData: {},
-                              _id: "60071565a11f5584a21dffcb",
-                              _captchaPublicKey:
-                                "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                              _renderCaptcha: true,
-                              _site: { id: 130200569 },
-                            },
-                            container: $(
-                              "#webs-bin-60071565a11f5584a21dffcb > .webs-bin-wrap > .webs-container"
-                            ),
-                          })
-                          .done(function (m) {
-                            m.oneLoaded();
-                            deferredLoad.resolve();
-                          });
-                      });
-                    });
-                  </script>
                   <div class="webs-bin" id="webs-bin-6007155ba11f553c151dffc9">
                     <div class="webs-bin-wrap">
                       <div
@@ -2262,61 +1692,6 @@
                       </div>
                     </div>
                   </div>
-                  <script>
-                    require(["jquery"], function ($) {
-                      var deferredLoad = $.Deferred();
-                      webs.renderedModulesPromises.push(deferredLoad.promise());
-                      require([
-                        "internal/sitebuilder/common/ModuleClassLoader",
-                      ], function (mcl) {
-                        mcl
-                          .create("text_image", {
-                            data: {
-                              text: {
-                                html: '<p><span style="color: rgb(217, 217, 217); font-size: 14px;">Our minimum\n set up&nbsp;will include a covered displays with tents and will require at \nleast 12m x 12m pitch with ground which pegs can be hammered into. <\/span><br><\/p><p><br><\/p><p style="color: rgb(217, 217, 217); font-size: 14px;">If\n the event is&nbsp;over two days this area will increase to include the \nmembers period sleeping tents meaning we will require a MINIMUM of 25m x\n 25m. We would also ask that we are allowed to use our raised, wood \nburning&nbsp;firepit to allow us to cook dinner and have a brew.<\/p><p><br><\/p><span style="text-align: start; color: rgb(217, 217, 217); font-size: 14px;">We would also ask that we are allowed to use our raised, wood burning&nbsp;firepit to allow us to cook dinner and have a brew.<\/span><span style="color: rgb(217, 217, 217); font-size: 14px;"> <\/span><div><br><\/div><div style="color: rgb(217, 217, 217); font-size: 14px;">Members will attend in uniform and smart \'walking out\' order. An emphasis will be placed on spit and polish (also known as bull) and the group will engage in foot and rifle drill practice. <br><\/div><br>',
-                                linksData: {},
-                              },
-                              image: {
-                                url: "../images/Stephen%20Davis%202-1.jpg",
-                                imageType: "webs",
-                                align: "left",
-                                width: 300,
-                                height: 180,
-                                imageWidth: 100,
-                                frame: "default",
-                                link: null,
-                                caption: "image",
-                                inBucket: false,
-                                changeCallback: null,
-                                frameColor: "ffffff",
-                                top: -20,
-                                left: 0,
-                                imageHeight: 206,
-                                webs: {
-                                  fileId: 460775039,
-                                  path: "Stephen Davis 2-1.jpg",
-                                },
-                                topOffset: 0,
-                                leftOffset: 0,
-                                rotate: 0,
-                              },
-                              _id: "6007155ba11f553c151dffc9",
-                              _captchaPublicKey:
-                                "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                              _renderCaptcha: true,
-                              _site: { id: 130200569 },
-                            },
-                            container: $(
-                              "#webs-bin-6007155ba11f553c151dffc9 > .webs-bin-wrap > .webs-container"
-                            ),
-                          })
-                          .done(function (m) {
-                            m.oneLoaded();
-                            deferredLoad.resolve();
-                          });
-                      });
-                    });
-                  </script>
                 </div>
               </div>
             </section>
@@ -2380,62 +1755,6 @@
                         </div>
                       </div>
                     </div>
-                    <script>
-                      require(["jquery"], function ($) {
-                        var deferredLoad = $.Deferred();
-                        webs.renderedModulesPromises.push(
-                          deferredLoad.promise()
-                        );
-                        require([
-                          "internal/sitebuilder/common/ModuleClassLoader",
-                        ], function (mcl) {
-                          mcl
-                            .create("image", {
-                              data: {
-                                link: null,
-                                imageType: "webs",
-                                width: 41,
-                                height: 41,
-                                align: "center",
-                                imageWidth: 451.22,
-                                caption: "image",
-                                inBucket: false,
-                                changeCallback: null,
-                                frame: "default",
-                                frameColor: "ffffff",
-                                top: -33,
-                                left: -22,
-                                imageHeight: 104,
-                                url: "../images/1593536442_facebook_logo_2.jpg",
-                                topOffset: -0.0057000000000009265,
-                                leftOffset: -0.007950000000001012,
-                                rotate: 0,
-                                webs: {
-                                  fileId: 460770994,
-                                  path: "1593536442_facebook_logo_2.jpg",
-                                },
-                                linkInfo: {
-                                  tab: "webpage",
-                                  url: "https://www.facebook.com/royalwarwicks",
-                                  newWindow: true,
-                                },
-                                _id: "6005e44ca11f55ea611df04b",
-                                _captchaPublicKey:
-                                  "6Le3aDEUAAAAAMNRsdkVVxpJA05exOZVTuLEqM5u",
-                                _renderCaptcha: true,
-                                _site: { id: 130200569 },
-                              },
-                              container: $(
-                                "#webs-bin-6005e44ca11f55ea611df04b > .webs-bin-wrap > .webs-container"
-                              ),
-                            })
-                            .done(function (m) {
-                              m.oneLoaded();
-                              deferredLoad.resolve();
-                            });
-                        });
-                      });
-                    </script>
                   </div>
                   <div
                     class="webs-parent webs-parent-3 webs-col"
