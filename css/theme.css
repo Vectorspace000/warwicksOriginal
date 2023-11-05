@@ -125,7 +125,7 @@ textarea {
   margin-top: -12px !important;
   z-index: 1;
   border: none;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://static.websimages.com/static/projects/finch/themes/app_search_ie.png");
+  background-image: url("https://static.websimages.com/static/projects/finch/themes/app_search_ie.png");
   background-image: url("data:image/svg+xml;charset=iso-8859-1, %3Csvg%20version%3D%221.1%22%20xmlns%3D%22https%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22https%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%2216px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2016%2016%22%20enable-background%3D%22new%200%200%2016%2016%22%20xml%3Aspace%3D%22preserve%22%3E%3Cg%3E%3Ccircle%20fill%3D%22none%22%20stroke%3D%22%23e3d475%22%20stroke-width%3D%222%22%20cx%3D%226.099%22%20cy%3D%226.1%22%20r%3D%224.999%22/%3E%3Cline%20fill%3D%22none%22%20stroke%3D%22%23e3d475%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20x1%3D%229.828%22%20y1%3D%229.828%22%20x2%3D%2214.9%22%20y2%3D%2214.9%22/%3E%3C/g%3E%3C/svg%3E");
   background-color: transparent;
   background-repeat: no-repeat;
@@ -175,7 +175,7 @@ textarea {
   right: 4px;
   display: inline-block;
   background: transparent
-    url("https://web.archive.org/web/20230607105802im_/https://static.websimages.com/rails-static/webstore/images/paypal_24.png")
+    url("https://static.websimages.com/rails-static/webstore/images/paypal_24.png")
     no-repeat left top;
   width: 77px;
   padding: 0;
@@ -215,7 +215,7 @@ textarea {
 }
 .webs-content .webs-module-undefined #item-manage-website a.icon-link,
 .webs-content .webs-module-null #item-manage-website a.icon-link {
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://images.webs.com/static/global/icons/silk/page_edit.png");
+  background-image: url("https://images.webs.com/static/global/icons/silk/page_edit.png");
 }
 .webs-content .webs-module-undefined img.fw-photo,
 .webs-content .webs-module-null img.fw-photo {
@@ -308,7 +308,7 @@ textarea {
 .ie7 .webs-content .fw-searchContainer .fw-searchSubmit,
 .ie8 .webs-content .fw-searchContainer .fw-searchSubmit,
 .ie9 .webs-content .fw-searchContainer .fw-searchSubmit {
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://static.websimages.com/static/projects/finch/themes/app_search_ie.png");
+  background-image: url("https://static.websimages.com/static/projects/finch/themes/app_search_ie.png");
 }
 /* ----- Fonts ----- */
 .webs-nav {
@@ -428,7 +428,7 @@ textarea a:hover {
 /* ----- General ----- */
 body {
   background: #0e0e0e
-    url("https://web.archive.org/web/20230607105802im_/http://dynamic.websimages.com/s/themes/fashion/v1.23/images/bg.gif")
+    url("http://dynamic.websimages.com/s/themes/fashion/v1.23/images/bg.gif")
     repeat scroll 0 0;
 }
 a {
@@ -467,7 +467,7 @@ input.fw-editor-text:focus {
 }
 .subWrapper {
   background: transparent
-    url("https://web.archive.org/web/20230607105802im_/https://dynamic.websimages.com/s/themes/fashion/v1.26/images/wrappershadow.png")
+    url("https://dynamic.websimages.com/s/themes/fashion/v1.26/images/wrappershadow.png")
     center top no-repeat;
   margin: 0 auto;
   width: 962px;
@@ -475,7 +475,7 @@ input.fw-editor-text:focus {
 }
 .noise {
   background: #1b1b1b
-    url("https://web.archive.org/web/20230607105802im_/http://dynamic.websimages.com/s/themes/fashion/v1.23/images/noise.png")
+    url("http://dynamic.websimages.com/s/themes/fashion/v1.23/images/noise.png")
     repeat scroll 0 0;
   padding: 0 11px;
   width: 940px;
@@ -484,7 +484,7 @@ input.fw-editor-text:focus {
   position: relative;
 }
 .bottom-shadow:after {
-  content: url("https://web.archive.org/web/20230607105802im_/https://dynamic.websimages.com/s/themes/fashion/v1.26/images/shadow.png");
+  content: url("https://dynamic.websimages.com/s/themes/fashion/v1.26/images/shadow.png");
   width: 960px;
   height: 19px;
   position: absolute;
@@ -1335,7 +1335,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .cell-wrapper
   .image-edit-wrapper.hover-effect-zoomSign.hover-effect-color-black
   .details {
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://static.websimages.com/static/projects/finch/images/magnify_icon_white.png");
+  background-image: url("https://static.websimages.com/static/projects/finch/images/magnify_icon_white.png");
 }
 .webs-module-photo_gallery.w-photo_gallery-base
   .w-photo_gallery.grid
@@ -1344,7 +1344,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .cell-wrapper
   .image-edit-wrapper.hover-effect-zoomSign.hover-effect-color-white
   .details {
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://static.websimages.com/static/projects/finch/images/magnify_icon_dark.png");
+  background-image: url("https://static.websimages.com/static/projects/finch/images/magnify_icon_dark.png");
 }
 .webs-module-photo_gallery.w-photo_gallery-base
   .w-photo_gallery.grid
@@ -1353,7 +1353,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .cell-wrapper
   .image-edit-wrapper.hover-effect-plusSign.hover-effect-color-black
   .details {
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://static.websimages.com/static/projects/finch/images/plus_icon_white.png");
+  background-image: url("https://static.websimages.com/static/projects/finch/images/plus_icon_white.png");
 }
 .webs-module-photo_gallery.w-photo_gallery-base
   .w-photo_gallery.grid
@@ -1362,7 +1362,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .cell-wrapper
   .image-edit-wrapper.hover-effect-plusSign.hover-effect-color-white
   .details {
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://static.websimages.com/static/projects/finch/images/plus_icon_dark.png");
+  background-image: url("https://static.websimages.com/static/projects/finch/images/plus_icon_dark.png");
 }
 .webs-module-photo_gallery.w-photo_gallery-base
   .w-photo_gallery.grid
@@ -1421,7 +1421,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .cell-wrapper
   .image-edit-wrapper.hover-effect-titleSign.hover-effect-color-black
   .details {
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://static.websimages.com/static/projects/finch/images/plus_icon_white.png");
+  background-image: url("https://static.websimages.com/static/projects/finch/images/plus_icon_white.png");
   background-position-y: 5%;
   background-position-x: 95%;
   background-size: 10%;
@@ -1443,7 +1443,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .cell-wrapper
   .image-edit-wrapper.hover-effect-titleSign.hover-effect-color-white
   .details {
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://static.websimages.com/static/projects/finch/images/plus_icon_dark.png");
+  background-image: url("https://static.websimages.com/static/projects/finch/images/plus_icon_dark.png");
   background-position-y: 5%;
   background-position-x: 95%;
   background-size: 10%;
@@ -1823,7 +1823,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .slide-container-1
   .button.style1.right-button {
   right: 0px;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/right_1x.png");
+  background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/right_1x.png");
 }
 .webs-module-photo_gallery.w-photo_gallery-base
   .w-photo_gallery.slideshow
@@ -1831,7 +1831,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .slide-container-1
   .button.style1.left-button {
   left: 0px;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/left_1x.png");
+  background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/left_1x.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .webs-module-photo_gallery.w-photo_gallery-base
@@ -1839,14 +1839,14 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
     .slide-container
     .slide-container-1
     .button.style1.right-button {
-    background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/right_2x.png");
+    background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/right_2x.png");
   }
   .webs-module-photo_gallery.w-photo_gallery-base
     .w-photo_gallery.slideshow
     .slide-container
     .slide-container-1
     .button.style1.left-button {
-    background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/left_2x.png");
+    background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/left_2x.png");
   }
 }
 .webs-module-photo_gallery.w-photo_gallery-base
@@ -1872,7 +1872,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .button.style2.right-button {
   right: 30px;
   bottom: 30px;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/black_right_1x.png");
+  background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/black_right_1x.png");
 }
 .webs-module-photo_gallery.w-photo_gallery-base
   .w-photo_gallery.slideshow
@@ -1881,7 +1881,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .button.style2.left-button {
   right: 65px;
   bottom: 30px;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/black_left_1x.png");
+  background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/black_left_1x.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .webs-module-photo_gallery.w-photo_gallery-base
@@ -1889,14 +1889,14 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
     .slide-container
     .slide-container-1
     .button.style2.right-button {
-    background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/black_right_2x.png");
+    background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/black_right_2x.png");
   }
   .webs-module-photo_gallery.w-photo_gallery-base
     .w-photo_gallery.slideshow
     .slide-container
     .slide-container-1
     .button.style2.left-button {
-    background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/black_left_2x.png");
+    background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/black_left_2x.png");
   }
 }
 .webs-module-photo_gallery.w-photo_gallery-base
@@ -1927,7 +1927,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .slide-container-1
   .button.style3.right-button {
   right: 20px;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/right_1x.png");
+  background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/right_1x.png");
 }
 .webs-module-photo_gallery.w-photo_gallery-base
   .w-photo_gallery.slideshow
@@ -1935,7 +1935,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .slide-container-1
   .button.style3.left-button {
   left: 20px;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/left_1x.png");
+  background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/left_1x.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .webs-module-photo_gallery.w-photo_gallery-base
@@ -1943,14 +1943,14 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
     .slide-container
     .slide-container-1
     .button.style3.right-button {
-    background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/right_2x.png");
+    background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/right_2x.png");
   }
   .webs-module-photo_gallery.w-photo_gallery-base
     .w-photo_gallery.slideshow
     .slide-container
     .slide-container-1
     .button.style3.left-button {
-    background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/left_2x.png");
+    background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/left_2x.png");
   }
 }
 .webs-module-photo_gallery.w-photo_gallery-base
@@ -1981,7 +1981,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .slide-container-1
   .button.style4.right-button {
   right: 20px;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/white_right_1x.png");
+  background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/white_right_1x.png");
 }
 .webs-module-photo_gallery.w-photo_gallery-base
   .w-photo_gallery.slideshow
@@ -1989,7 +1989,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .slide-container-1
   .button.style4.left-button {
   left: 20px;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/white_left_1x.png");
+  background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/white_left_1x.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .webs-module-photo_gallery.w-photo_gallery-base
@@ -1997,14 +1997,14 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
     .slide-container
     .slide-container-1
     .button.style4.right-button {
-    background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/white_right_2x.png");
+    background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/white_right_2x.png");
   }
   .webs-module-photo_gallery.w-photo_gallery-base
     .w-photo_gallery.slideshow
     .slide-container
     .slide-container-1
     .button.style4.left-button {
-    background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/white_left_2x.png");
+    background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/white_left_2x.png");
   }
 }
 .webs-module-photo_gallery.w-photo_gallery-base
@@ -2032,7 +2032,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .slide-container-1
   .button.style5.right-button {
   right: 0px;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/large_trans_white_right_1x.png");
+  background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/large_trans_white_right_1x.png");
 }
 .webs-module-photo_gallery.w-photo_gallery-base
   .w-photo_gallery.slideshow
@@ -2040,7 +2040,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .slide-container-1
   .button.style5.left-button {
   left: 0px;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/large_trans_white_left_1x.png");
+  background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/large_trans_white_left_1x.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .webs-module-photo_gallery.w-photo_gallery-base
@@ -2048,14 +2048,14 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
     .slide-container
     .slide-container-1
     .button.style5.right-button {
-    background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/large_trans_white_right_2x.png");
+    background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/large_trans_white_right_2x.png");
   }
   .webs-module-photo_gallery.w-photo_gallery-base
     .w-photo_gallery.slideshow
     .slide-container
     .slide-container-1
     .button.style5.left-button {
-    background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/large_trans_white_left_2x.png");
+    background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/large_trans_white_left_2x.png");
   }
 }
 .webs-module-photo_gallery.w-photo_gallery-base
@@ -2083,7 +2083,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .slide-container-1
   .button.style6.right-button {
   right: 0px;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/thin_white_right_1x.png");
+  background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/thin_white_right_1x.png");
 }
 .webs-module-photo_gallery.w-photo_gallery-base
   .w-photo_gallery.slideshow
@@ -2091,7 +2091,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .slide-container-1
   .button.style6.left-button {
   left: 0px;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/thin_white_left_1x.png");
+  background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/thin_white_left_1x.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .webs-module-photo_gallery.w-photo_gallery-base
@@ -2099,14 +2099,14 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
     .slide-container
     .slide-container-1
     .button.style6.right-button {
-    background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/thin_white_right_2x.png");
+    background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/thin_white_right_2x.png");
   }
   .webs-module-photo_gallery.w-photo_gallery-base
     .w-photo_gallery.slideshow
     .slide-container
     .slide-container-1
     .button.style6.left-button {
-    background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/thin_white_left_2x.png");
+    background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/thin_white_left_2x.png");
   }
 }
 .webs-module-photo_gallery.w-photo_gallery-base
@@ -2715,7 +2715,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .slide-wrapper
   .image-edit-wrapper.hover-effect-zoomSign.hover-effect-color-black
   .details {
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://static.websimages.com/static/projects/finch/images/magnify_icon_white.png");
+  background-image: url("https://static.websimages.com/static/projects/finch/images/magnify_icon_white.png");
 }
 .webs-module-photo_gallery.w-photo_gallery-base
   .w-photo_gallery.slideshow
@@ -2726,7 +2726,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .slide-wrapper
   .image-edit-wrapper.hover-effect-zoomSign.hover-effect-color-white
   .details {
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://static.websimages.com/static/projects/finch/images/magnify_icon_dark.png");
+  background-image: url("https://static.websimages.com/static/projects/finch/images/magnify_icon_dark.png");
 }
 .webs-module-photo_gallery.w-photo_gallery-base
   .w-photo_gallery.slideshow
@@ -2737,7 +2737,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .slide-wrapper
   .image-edit-wrapper.hover-effect-plusSign.hover-effect-color-black
   .details {
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://static.websimages.com/static/projects/finch/images/plus_icon_white.png");
+  background-image: url("https://static.websimages.com/static/projects/finch/images/plus_icon_white.png");
 }
 .webs-module-photo_gallery.w-photo_gallery-base
   .w-photo_gallery.slideshow
@@ -2748,7 +2748,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .slide-wrapper
   .image-edit-wrapper.hover-effect-plusSign.hover-effect-color-white
   .details {
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://static.websimages.com/static/projects/finch/images/plus_icon_dark.png");
+  background-image: url("https://static.websimages.com/static/projects/finch/images/plus_icon_dark.png");
 }
 .webs-module-photo_gallery.w-photo_gallery-base
   .w-photo_gallery.slideshow
@@ -2815,7 +2815,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .slide-wrapper
   .image-edit-wrapper.hover-effect-titleSign.hover-effect-color-black
   .details {
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://static.websimages.com/static/projects/finch/images/plus_icon_white.png");
+  background-image: url("https://static.websimages.com/static/projects/finch/images/plus_icon_white.png");
   background-position-y: 5%;
   background-position-x: 95%;
   background-size: 10%;
@@ -2841,7 +2841,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   .slide-wrapper
   .image-edit-wrapper.hover-effect-titleSign.hover-effect-color-white
   .details {
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://static.websimages.com/static/projects/finch/images/plus_icon_dark.png");
+  background-image: url("https://static.websimages.com/static/projects/finch/images/plus_icon_dark.png");
   background-position-y: 5%;
   background-position-x: 95%;
   background-size: 10%;
@@ -3090,7 +3090,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
     .w-slideshow-thumbnails-nav.w-slideshow-thumbnail-button-next
     .thumbnail-vertical {
     background-size: 200%;
-    background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/bottom_2x.png");
+    background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/bottom_2x.png");
   }
   .webs-module-photo_gallery.w-photo_gallery-base
     .w-photo_gallery.slideshow
@@ -3099,7 +3099,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
     .w-slideshow-thumbnails-nav.w-slideshow-thumbnail-button-prev
     .thumbnail-vertical {
     background-size: 200%;
-    background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/top_2x.png");
+    background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/top_2x.png");
   }
   .webs-module-photo_gallery.w-photo_gallery-base
     .w-photo_gallery.slideshow
@@ -3108,7 +3108,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
     .w-slideshow-thumbnails-nav.w-slideshow-thumbnail-button-next
     .thumbnail-horizontal {
     background-size: 200%;
-    background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/right_2x.png");
+    background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/right_2x.png");
   }
   .webs-module-photo_gallery.w-photo_gallery-base
     .w-photo_gallery.slideshow
@@ -3117,7 +3117,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
     .w-slideshow-thumbnails-nav.w-slideshow-thumbnail-button-prev
     .thumbnail-horizontal {
     background-size: 200%;
-    background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/left_2x.png");
+    background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/left_2x.png");
   }
 }
 .webs-module-photo_gallery.w-photo_gallery-base
@@ -3151,7 +3151,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   bottom: 0px;
   height: 15px;
   width: 100%;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/bottom_1x.png");
+  background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/bottom_1x.png");
 }
 .webs-module-photo_gallery.w-photo_gallery-base
   .w-photo_gallery.slideshow
@@ -3162,7 +3162,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   top: 0px;
   height: 15px;
   width: 100%;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/top_1x.png");
+  background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/top_1x.png");
 }
 .webs-module-photo_gallery.w-photo_gallery-base
   .w-photo_gallery.slideshow
@@ -3173,7 +3173,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   right: 0px;
   height: 100%;
   width: 15px;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/right_1x.png");
+  background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/right_1x.png");
 }
 .webs-module-photo_gallery.w-photo_gallery-base
   .w-photo_gallery.slideshow
@@ -3184,7 +3184,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   left: 0px;
   height: 100%;
   width: 15px;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/photo_gallery/v1.74/images/left_1x.png");
+  background-image: url("https://members.webs.com/s/modules/photo_gallery/v1.74/images/left_1x.png");
 }
 .webs-module-photo_gallery.w-photo_gallery-base
   .w-photo_gallery.slideshow
@@ -3307,7 +3307,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   height: 50px;
   margin-top: -25px;
   margin-left: -25px;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/carousel/v1.39/images/placeholder.png");
+  background-image: url("https://members.webs.com/s/modules/carousel/v1.39/images/placeholder.png");
 }
 .w-carousel .bldr-placeholder-element:after {
   margin-top: 12px;
@@ -3412,7 +3412,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   height: 22px;
   text-indent: -9999px;
   background: transparent
-    url("https://web.archive.org/web/20230607105802im_/https://static.websimages.com/static/projects/finch/images/carousel_back_forward.png")
+    url("https://static.websimages.com/static/projects/finch/images/carousel_back_forward.png")
     no-repeat 0 0;
 }
 .w-carousel-default .w-carousel-prev:focus {
@@ -3426,7 +3426,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   height: 22px;
   text-indent: -9999px;
   background: transparent
-    url("https://web.archive.org/web/20230607105802im_/https://static.websimages.com/static/projects/finch/images/carousel_back_forward.png")
+    url("https://static.websimages.com/static/projects/finch/images/carousel_back_forward.png")
     no-repeat 0 bottom;
 }
 .w-carousel-default .w-carousel-next:focus {
@@ -3461,14 +3461,14 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   height: 42px;
   margin: auto;
   margin-bottom: 10px;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/contact_form/v1.39/images/error_icon.png");
+  background-image: url("https://members.webs.com/s/modules/contact_form/v1.39/images/error_icon.png");
 }
 .w-contact_form .w-contact_form-container .success-message .success-icon {
   width: 43px;
   height: 48px;
   margin: auto;
   margin-bottom: 10px;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/contact_form/v1.39/images/form_success_check.png");
+  background-image: url("https://members.webs.com/s/modules/contact_form/v1.39/images/form_success_check.png");
 }
 .w-contact_form .w-contact_form-container.success form {
   visibility: hidden;
@@ -3699,7 +3699,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
 }
 .webs-audio-wrapper.webs-audio-size-large .play-pause .play-pause-icon {
   background: transparent
-    url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/audio/v1.16/images/player-sprite.png")
+    url("https://members.webs.com/s/modules/audio/v1.16/images/player-sprite.png")
     no-repeat 0px -45px;
   position: relative;
   left: 9px;
@@ -3757,7 +3757,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   width: 14px;
   height: 12px;
   background-color: transparent;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/audio/v1.16/images/player-sprite.png");
+  background-image: url("https://members.webs.com/s/modules/audio/v1.16/images/player-sprite.png");
   background-repeat: no-repeat;
 }
 .webs-audio-wrapper.webs-audio-size-large
@@ -4111,7 +4111,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
 }
 .webs-audio-wrapper.webs-audio-size-small .id3-container .tip {
   background: transparent
-    url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/audio/v1.16/images/tip.png")
+    url("https://members.webs.com/s/modules/audio/v1.16/images/tip.png")
     no-repeat 0px 0px;
   width: 5px;
   height: 3px;
@@ -4194,7 +4194,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   width: 14px;
   height: 12px;
   background-color: transparent;
-  background-image: url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/audio/v1.16/images/player-sprite.png");
+  background-image: url("https://members.webs.com/s/modules/audio/v1.16/images/player-sprite.png");
   background-repeat: no-repeat;
 }
 .webs-audio-wrapper.webs-audio-size-small
@@ -4270,7 +4270,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
 }
 .webs-audio-wrapper.webs-audio-size-small.webs-audio-scheme-light .play-pause {
   background: transparent
-    url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/audio/v1.16/images/player-sprite.png")
+    url("https://members.webs.com/s/modules/audio/v1.16/images/player-sprite.png")
     no-repeat -33px -33px;
 }
 .webs-audio-wrapper.webs-audio-size-small.webs-audio-scheme-light
@@ -4346,7 +4346,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
 }
 .webs-audio-wrapper.webs-audio-size-small.webs-audio-scheme-dark .play-pause {
   background: transparent
-    url("https://web.archive.org/web/20230607105802im_/https://members.webs.com/s/modules/audio/v1.16/images/player-sprite.png")
+    url("https://members.webs.com/s/modules/audio/v1.16/images/player-sprite.png")
     no-repeat -1px -33px;
 }
 .webs-audio-wrapper.webs-audio-size-small.webs-audio-scheme-dark
@@ -4861,7 +4861,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   height: 8px;
   background: #1b1b1b;
   background: #1b1b1b
-    url("https://web.archive.org/web/20230607105802im_/http://dynamic.websimages.com/s/themes/fashion/v1.23/images/noise.png")
+    url("http://dynamic.websimages.com/s/themes/fashion/v1.23/images/noise.png")
     repeat scroll 0 0;
   position: absolute;
   top: 8px;
@@ -4904,7 +4904,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   color: #e3d475;
   text-shadow: 0 1px 1px #e9de95;
   background: #1b1b1b
-    url("https://web.archive.org/web/20230607105802im_/http://dynamic.websimages.com/s/themes/fashion/v1.23/images/noise.png")
+    url("http://dynamic.websimages.com/s/themes/fashion/v1.23/images/noise.png")
     repeat scroll 0 0;
   display: inline-block;
   padding: 4px 7px;
@@ -4915,7 +4915,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   line-height: 23px;
   color: #999999;
   background: #1b1b1b
-    url("https://web.archive.org/web/20230607105802im_/http://dynamic.websimages.com/s/themes/fashion/v1.23/images/noise.png")
+    url("http://dynamic.websimages.com/s/themes/fashion/v1.23/images/noise.png")
     repeat scroll 0 0;
   display: inline-block;
   padding: 4px 7px;
@@ -5187,9 +5187,19 @@ playback timings (ms):
   padding: revert;
   font-family: "Arial", sans-serif;
   font-size: 14px;
-  line-height: 200%;
+  /* line-height: 200%; */
+  line-height: 23px;
   color: rgb(217, 217, 217);
-  padding-bottom: 1.5em;
+  padding-bottom: 0.5em;
+}
+
+.js-list li{
+  padding-bottom: 1em;
+}
+
+.js-list-grid {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .js-list-grid-2 {

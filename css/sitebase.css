@@ -1624,7 +1624,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
 .bldr-placeholder-loading {
   position: relative;
   background: #a1a1a1
-    url(https://web.archive.org/web/20230610140321im_/https://static.websimages.com/static/projects/finch/images/placeholder-bg.png)
+    url(https://static.websimages.com/static/projects/finch/images/placeholder-bg.png)
     50% 50%;
   box-shadow: inset 0 0 10px #444;
 }
@@ -1659,7 +1659,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   display: none;
 }
 .bldr-placeholder-loading:before {
-  background-image: url(https://web.archive.org/web/20230610140321im_/https://static.websimages.com/static/projects/finch/images/onpage_loader.gif);
+  background-image: url(https://static.websimages.com/static/projects/finch/images/onpage_loader.gif);
   width: 99px;
   height: 20px;
   margin: -10px 0 0 -50px;
@@ -1673,7 +1673,7 @@ div.webs-frame-photocorners div.webs-frame-pc-br {
   height: 38px;
   margin-top: -19px;
   margin-left: -19px;
-  background-image: url(https://web.archive.org/web/20230610140321im_/https://static.websimages.com/static/projects/finch/images/placeholder/image.png);
+  background-image: url(https://static.websimages.com/static/projects/finch/images/placeholder/image.png);
 }
 .bldr-placeholder-image:after {
   margin-top: 20px;
@@ -1915,7 +1915,7 @@ u {
   min-width: 183px;
   height: 24px;
   background: transparent
-    url(https://web.archive.org/web/20230610140321im_/https://static.websimages.com/static/projects/platform/images/logout-bg.png)
+    url(https://static.websimages.com/static/projects/platform/images/logout-bg.png)
     top left no-repeat;
   z-index: 10000;
   font-size: 11px;
@@ -2010,7 +2010,7 @@ u {
 #login-module {
   padding: 5px;
   padding-left: 22px;
-  background: url(https://web.archive.org/web/20230610140321im_/https://static.websimages.com/static/global/icons/silk/user.png)
+  background: url(https://static.websimages.com/static/global/icons/silk/user.png)
     0 55% no-repeat;
 }
 .wz-bold {
@@ -2080,7 +2080,7 @@ u {
 .webs-expired-premium.header.closed .toggle {
   width: 39px;
   height: 34px;
-  background-image: url(https://web.archive.org/web/20230610140321im_/https://static.websimages.com/active-static/target/ui/images/exclamation-point.png);
+  background-image: url(https://static.websimages.com/active-static/target/ui/images/exclamation-point.png);
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 0 0 4px 4px;
